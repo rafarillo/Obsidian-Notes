@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"6ac79d55d8e94332","type":"text","text":"Texture Unit 0","x":-478,"y":-198,"width":250,"height":60},
+		{"id":"6a26b47ddaa82025","type":"text","text":"Texture Unit 1","x":-180,"y":-198,"width":250,"height":60},
+		{"id":"9c412cfb99bcfa7d","type":"text","text":"Texture Unit 2","x":100,"y":-198,"width":250,"height":60},
+		{"id":"e108c054fd3690da","x":-463,"y":-620,"width":221,"height":220,"type":"file","file":"CG/InteractiveComputer/TextureExample.png"}
+	],
+	"edges":[
+		{"id":"407a3c63967c9738","fromNode":"e108c054fd3690da","fromSide":"bottom","toNode":"6ac79d55d8e94332","toSide":"top"}
+	]
+}

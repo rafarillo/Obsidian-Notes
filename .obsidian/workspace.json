@@ -1,0 +1,263 @@
+{
+  "main": {
+    "id": "1c742e911e37aa08",
+    "type": "split",
+    "children": [
+      {
+        "id": "a973a636f4ac5b98",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e19ce604dbc9d9e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CG/InteractiveComputer/10. Render To Texture.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ad62234731f654a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CG/InteractiveComputer/11. The Rendering Equation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "55e739ee34c29660",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CG/InteractiveComputer/11. The Rendering Equation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "663bebf91967f07b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CG/InteractiveComputer/11. The Rendering Equation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "11e623d630d33e69",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CG/InteractiveComputer/11. The Rendering Equation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7bb18b16a87b33b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CG/Books/Physics-Based Animation/V vector matrices and quaternions/Math.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "bf8e65e31fc3c292",
+    "type": "split",
+    "children": [
+      {
+        "id": "e40ed885b5622307",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4b44a812d7d1f93b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "070ba403eb30dab3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1e1b460f7dc4fb86",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b04dd3aa545d2b31",
+    "type": "split",
+    "children": [
+      {
+        "id": "bbac769c85252704",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e4723bcfae97ef22",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "CG/Books/Physics-Based Animation/V vector matrices and quaternions/Math.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d47d81505f278ebe",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "CG/Books/Physics-Based Animation/V vector matrices and quaternions/Math.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "20e96877e48476ed",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "27a2349c8e9b74c7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "CG/Books/Physics-Based Animation/V vector matrices and quaternions/Math.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
+    }
+  },
+  "active": "7bb18b16a87b33b9",
+  "lastOpenFiles": [
+    "CG/Books/Physics-Based Animation/II Multibody Animation/5. Penalty-Based Multibody Animation.md",
+    "CG/Books/Physics-Based Animation/V vector matrices and quaternions/Math.md",
+    "CG/Books/Physics-Based Animation/V vector matrices and quaternions",
+    "CG/Books/Physics-Based Animation/2. Articulated Figures.md",
+    "CG/Books/Physics-Based Animation/II Multibody Animation",
+    "CG/InteractiveComputer/10. Render To Texture.md",
+    "CG/InteractiveComputer/11. The Rendering Equation.md",
+    "CG/InteractiveComputer/12. Enviroment Mapping.md",
+    "CG/InteractiveComputer/6. Triangular meshes.md",
+    "CG/InteractiveComputer/5. Intro GLSL.md",
+    "CG/InteractiveComputer/4. Intro Modern OpenGL.md",
+    "CG/InteractiveComputer/3. Windowing APIs.md",
+    "CG/InteractiveComputer/2. Rendering algorithms.md",
+    "CG/InteractiveComputer/1. Images & Transformation.md",
+    "CG/InteractiveComputer/7. Light Shading.md",
+    "Excalidraw/Surface Reflection 2.md",
+    "Excalidraw/Surface Reflextion.md",
+    "Excalidraw/RenderingAlg.excalidraw.md",
+    "GameDesign/Udemy/Game Design Essentials/CardGame/Print & Play Colour- Game Design Thinking.pdf",
+    "GameDesign/Udemy/Game Design Essentials/CardGame/Print & Play B&W No Character- Game Design Thinking.pdf",
+    "GameDesign/Udemy/Game Design Essentials/CardGame/Print & Play B&W- Game Design Thinking.pdf",
+    "GameDesign/Udemy/Game Design Essentials/CardGame/Interactive PDF Cards - Tiny Pixel Fights - Game Design Thinking.pdf",
+    "GameDesign/Udemy/Game Design Essentials/CardGame/Assignment 4_ Print & Play B&W No Character- Game Design Thinking.pdf",
+    "GameDesign/Udemy/Game Design Essentials/CardGame",
+    "GameDesign/Udemy/Game Design Essentials/CardGame/Assignment 4_ Print & Play Colour- Game Design Thinking.pdf",
+    "GameDesign/Udemy/Game Design Essentials/CardGame/Assignment 4_ Print & Play B&W- Game Design Thinking.pdf",
+    "CG/InteractiveComputer/9. Textures on GPU.md",
+    "CG/InteractiveComputer/Shader Access 2.png",
+    "CG/InteractiveComputer/Shader_Access.png",
+    "CG/InteractiveComputer/Binding.png",
+    "CG/InteractiveComputer/Tilling.png",
+    "CG/InteractiveComputer/Using MipMaps.png",
+    "CG/InteractiveComputer/Setup_Parameters.png",
+    "CG/InteractiveComputer/Setup_Data.png",
+    "CG/InteractiveComputer/Texture_Declaration.png",
+    "CG/InteractiveComputer/8. Textures.md",
+    "CG/InteractiveComputer/Pasted image 20240414170548.png",
+    "Pasted image 20240507212428.png",
+    "CG/InteractiveComputer/GPU Pipeline.canvas",
+    "CG/InteractiveComputer/Pipeline Overview.canvas",
+    "CG/InteractiveComputer/Texture Unit.canvas",
+    "2024-05-07.md",
+    "Excalidraw/Drawing 2024-05-07 21.16.07.excalidraw.md",
+    "Excalidraw/Bilinear.excalidraw.md",
+    "Excalidraw/Aliasing.excalidraw.md",
+    "CG/Books/Physics-Based Animation/1. Intro.md",
+    "CG/Books/A First Course in Numerical Methods/Numerical Integration.md",
+    "GameDesign/Game Makers Toolkit/Turn Based Combat.md",
+    "GameDesign/Game Makers Toolkit/Turn Combat.md"
+  ]
+}

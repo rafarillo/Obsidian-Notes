@@ -1,0 +1,20 @@
+- Impacta diretamente no tamanho de um jogo
+- Sem save syste = jogo tem que ser mais curto
+- FreeForm x Designated
+	- FreeForm
+		- Pode salvar em qualquer lugar
+		- Jogador ganha senso de segurança
+		- Remove o drama
+		- Promove experimentação e jogadas de risco
+	- Designated
+		- Designado em determiandos pontos do jogo
+		- Cria tensão (não sabe quando poderá salvar de novo)
+		- Adiciona drama
+		- Deixa obvio quando algum grande evento está por vir
+- Auto save
+	- Tenta misturar o que é o melhor dos dois mundo para as duas perspectivas citadas acima
+	- O algoritmo precisa garantir que não havera nenhum softlock
+
+- Ideias interessantes
+	- Salvar o jogo pode gastar recurso (isso fará com que o jogador comece a procurar por esse recurso no mapa)
+	- Shovel knight - você pode decidir não salvar (quebrar o ponto de save) e receber uma recompensa por isso (por essa coragem)

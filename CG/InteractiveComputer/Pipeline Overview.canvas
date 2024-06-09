@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"17332e588532e5eb","type":"text","text":"Scene Data (Mostly Triangles)\nOr can be images (textures)","x":-860,"y":-260,"width":300,"height":140,"color":"6"},
+		{"id":"45dc2d68db82b316","type":"file","file":"CG/InteractiveComputer/GPU Pipeline.canvas","x":-440,"y":-360,"width":400,"height":400},
+		{"id":"2febab4c27395195","type":"text","text":"Final Image","x":162,"y":-186,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"4ce65b6105553750","fromNode":"17332e588532e5eb","fromSide":"right","toNode":"45dc2d68db82b316","toSide":"left"},
+		{"id":"a5185ddcabc5783c","fromNode":"45dc2d68db82b316","fromSide":"right","toNode":"2febab4c27395195","toSide":"left"}
+	]
+}
