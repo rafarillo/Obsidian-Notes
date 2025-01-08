@@ -4,83 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "a973a636f4ac5b98",
+        "id": "ae8b15d9d0531d47",
         "type": "tabs",
         "children": [
           {
-            "id": "e19ce604dbc9d9e3",
+            "id": "08386695e7c13b83",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CG/InteractiveComputer/10. Render To Texture.md",
+                "file": "Corpo Mole/Referencias.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "ad62234731f654a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CG/InteractiveComputer/11. The Rendering Equation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "55e739ee34c29660",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CG/InteractiveComputer/11. The Rendering Equation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "663bebf91967f07b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CG/InteractiveComputer/11. The Rendering Equation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "11e623d630d33e69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CG/InteractiveComputer/11. The Rendering Equation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7bb18b16a87b33b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CG/Books/Physics-Based Animation/V vector matrices and quaternions/Math.md",
-                "mode": "source",
-                "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Referencias"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -115,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -123,7 +68,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -146,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CG/Books/Physics-Based Animation/V vector matrices and quaternions/Math.md",
+                "file": "Backend/Fundamentals Of BackEnd engeniring/Section 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +101,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Section 2"
             }
           },
           {
@@ -163,10 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CG/Books/Physics-Based Animation/V vector matrices and quaternions/Math.md",
+                "file": "Backend/Fundamentals Of BackEnd engeniring/Section 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Section 2"
             }
           },
           {
@@ -177,7 +128,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -186,8 +139,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CG/Books/Physics-Based Animation/V vector matrices and quaternions/Math.md"
-              }
+                "file": "Backend/Fundamentals Of BackEnd engeniring/Section 2.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Section 2"
             }
           }
         ]
@@ -208,56 +163,56 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7bb18b16a87b33b9",
+  "active": "4b44a812d7d1f93b",
   "lastOpenFiles": [
-    "CG/Books/Physics-Based Animation/II Multibody Animation/5. Penalty-Based Multibody Animation.md",
-    "CG/Books/Physics-Based Animation/V vector matrices and quaternions/Math.md",
-    "CG/Books/Physics-Based Animation/V vector matrices and quaternions",
-    "CG/Books/Physics-Based Animation/2. Articulated Figures.md",
-    "CG/Books/Physics-Based Animation/II Multibody Animation",
-    "CG/InteractiveComputer/10. Render To Texture.md",
-    "CG/InteractiveComputer/11. The Rendering Equation.md",
-    "CG/InteractiveComputer/12. Enviroment Mapping.md",
-    "CG/InteractiveComputer/6. Triangular meshes.md",
-    "CG/InteractiveComputer/5. Intro GLSL.md",
-    "CG/InteractiveComputer/4. Intro Modern OpenGL.md",
+    "New Formato Rich Text.rtf",
     "CG/InteractiveComputer/3. Windowing APIs.md",
-    "CG/InteractiveComputer/2. Rendering algorithms.md",
-    "CG/InteractiveComputer/1. Images & Transformation.md",
-    "CG/InteractiveComputer/7. Light Shading.md",
-    "Excalidraw/Surface Reflection 2.md",
+    "CG/Books/RealTimeRendering 4th/Chap6.md",
     "Excalidraw/Surface Reflextion.md",
-    "Excalidraw/RenderingAlg.excalidraw.md",
-    "GameDesign/Udemy/Game Design Essentials/CardGame/Print & Play Colour- Game Design Thinking.pdf",
-    "GameDesign/Udemy/Game Design Essentials/CardGame/Print & Play B&W No Character- Game Design Thinking.pdf",
-    "GameDesign/Udemy/Game Design Essentials/CardGame/Print & Play B&W- Game Design Thinking.pdf",
-    "GameDesign/Udemy/Game Design Essentials/CardGame/Interactive PDF Cards - Tiny Pixel Fights - Game Design Thinking.pdf",
-    "GameDesign/Udemy/Game Design Essentials/CardGame/Assignment 4_ Print & Play B&W No Character- Game Design Thinking.pdf",
-    "GameDesign/Udemy/Game Design Essentials/CardGame",
-    "GameDesign/Udemy/Game Design Essentials/CardGame/Assignment 4_ Print & Play Colour- Game Design Thinking.pdf",
-    "GameDesign/Udemy/Game Design Essentials/CardGame/Assignment 4_ Print & Play B&W- Game Design Thinking.pdf",
-    "CG/InteractiveComputer/9. Textures on GPU.md",
-    "CG/InteractiveComputer/Shader Access 2.png",
-    "CG/InteractiveComputer/Shader_Access.png",
-    "CG/InteractiveComputer/Binding.png",
-    "CG/InteractiveComputer/Tilling.png",
-    "CG/InteractiveComputer/Using MipMaps.png",
-    "CG/InteractiveComputer/Setup_Parameters.png",
-    "CG/InteractiveComputer/Setup_Data.png",
-    "CG/InteractiveComputer/Texture_Declaration.png",
-    "CG/InteractiveComputer/8. Textures.md",
-    "CG/InteractiveComputer/Pasted image 20240414170548.png",
-    "Pasted image 20240507212428.png",
-    "CG/InteractiveComputer/GPU Pipeline.canvas",
-    "CG/InteractiveComputer/Pipeline Overview.canvas",
-    "CG/InteractiveComputer/Texture Unit.canvas",
-    "2024-05-07.md",
-    "Excalidraw/Drawing 2024-05-07 21.16.07.excalidraw.md",
-    "Excalidraw/Bilinear.excalidraw.md",
+    "Backend/Fundamentals Of BackEnd engeniring/Section 2.md",
+    "Corpo Mole/Position Based Dynamics.md",
+    "Corpo Mole/Referencias.md",
+    "Corpo Mole/Extreme Position Based Dynamics.md",
+    "Maratona/DP.md",
+    "CG/InteractiveComputer/5. Intro GLSL.md",
+    "Corpo Mole",
+    "CG/InteractiveComputer/4. Intro Modern OpenGL.md",
+    "CG/InteractiveComputer/6. Triangular meshes.md",
     "Excalidraw/Aliasing.excalidraw.md",
+    "Maratona",
+    "Backend/Internet.md",
+    "Excalidraw/Demultiplexing vs multipexing.md",
+    "Pasted image 20241028202257.png",
+    "Backend/Pasted image 20240909212028.png",
+    "Backend/Fundamentals Of BackEnd engeniring/Resources/rabbitMQ-pushAPI.pdf",
+    "CG/InteractiveComputer/2. Rendering algorithms.md",
+    "CG/Books/RealTimeRendering 4th/Chap6 Texture Pipeline.md",
+    "CG/Books/RealTimeRendering 4th/chap6 img.png",
+    "CG/Books/RealTimeRendering 4th/Chapter2.md",
+    "CG/Books/Fundamentals In CG/CHap9.md",
+    "CG/Books/Fundamentals In CG/Pasted image 20241012161514.png",
+    "Excalidraw/Convolution.md",
+    "Excalidraw/Untitled.md",
+    "CG/Books/Physics-Based Animation/2. Articulated Figures.md",
+    "CG/Books/Fundamentals In CG",
     "CG/Books/Physics-Based Animation/1. Intro.md",
-    "CG/Books/A First Course in Numerical Methods/Numerical Integration.md",
-    "GameDesign/Game Makers Toolkit/Turn Based Combat.md",
-    "GameDesign/Game Makers Toolkit/Turn Combat.md"
+    "CG/Books/Physics-Based Animation/V vector matrices and quaternions/Math.md",
+    "CG/Books/Physics-Based Animation/II Multibody Animation/5. Penalty-Based Multibody Animation.md",
+    "CG/Books/Texture & Modeling/Pages.md",
+    "CG/Real-Time Rendering 4ed",
+    "CG/InteractiveComputer/GPU Pipeline.canvas",
+    "CG/Untitled",
+    "CG/InteractiveComputer/Pipeline Overview.canvas",
+    "GameDesign/The Art of Game Design/Pasted image 20241008004741.png",
+    "GameDesign/The Art of Game Design/Pasted image 20241008005939.png",
+    "GameDesign/The Art of Game Design/Pasted image 20241008010318.png",
+    "GameDesign/The Art of Game Design/L6.png",
+    "GameDesign/The Art of Game Design/L5.png",
+    "GameDesign/The Art of Game Design/L4.png",
+    "CG/InteractiveComputer/Texture Unit.canvas",
+    "Valete/Debate_Oratoria",
+    "Valete",
+    "Backend/Fundamentals Of BackEnd engeniring/Resources/backendcourse-sourcecode.zip",
+    "Backend/Fundamentals Of BackEnd engeniring/Resources/Fundamentals+of+Backend+Communications+and+Protocols.odp"
   ]
 }

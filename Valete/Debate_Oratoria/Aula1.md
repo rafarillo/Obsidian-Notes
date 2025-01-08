@@ -1,0 +1,2 @@
+- Começar contando historia pessoal (isso prende a atenção do público)
+- Debate é mais sobre forma do que sobre conteudo ()

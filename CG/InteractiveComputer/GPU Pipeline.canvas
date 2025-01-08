@@ -9,10 +9,9 @@
 		{"id":"e24370a851fc5cbe","type":"text","text":"Geometry Shader (optional)","x":-580,"y":360,"width":250,"height":58,"color":"4"},
 		{"id":"f594e25ce96347e1","type":"text","text":"Tesselation (optional)","x":-680,"y":80,"width":250,"height":60,"color":"4"},
 		{"id":"862b9c7858710143","type":"text","text":"Vertex Shader","x":-480,"y":-320,"width":250,"height":60,"color":"4"},
-		{"id":"da1370bc067dbfe5","x":380,"y":-760,"width":250,"height":280,"type":"file","file":"CG/InteractiveComputer/Texture Unit.canvas"}
+		{"id":"da1370bc067dbfe5","type":"file","file":"CG/InteractiveComputer/Texture Unit.canvas","x":380,"y":-760,"width":250,"height":280}
 	],
 	"edges":[
-		{"id":"e8908beb192901b0","fromNode":"862b9c7858710143","fromSide":"right","toNode":"965e3493048971ee","toSide":"left","label":"Expect to get vertices in canonical view volume"},
 		{"id":"4087f2f7c5ccc817","fromNode":"965e3493048971ee","fromSide":"right","toNode":"940e27a4cc38194c","toSide":"left"},
 		{"id":"c4cf923a65d990b5","fromNode":"940e27a4cc38194c","fromSide":"right","toNode":"786879b5b467202a","toSide":"left"},
 		{"id":"f79f98fa8471967d","fromNode":"862b9c7858710143","fromSide":"bottom","toNode":"e24370a851fc5cbe","toSide":"top","color":"3","label":"Caminho sem TS"},
@@ -21,6 +20,7 @@
 		{"id":"6355a9bfb8223f2f","fromNode":"f594e25ce96347e1","fromSide":"right","toNode":"965e3493048971ee","toSide":"left","color":"5","label":"Caminho sem GS"},
 		{"id":"503171d74ae20ba3","fromNode":"f594e25ce96347e1","fromSide":"bottom","toNode":"e24370a851fc5cbe","toSide":"top","color":"3"},
 		{"id":"43c7720fd67ce031","fromNode":"da1370bc067dbfe5","fromSide":"bottom","toNode":"538ecd575a444ecf","toSide":"bottom"},
-		{"id":"76e54f2871587d95","fromNode":"da1370bc067dbfe5","fromSide":"left","toNode":"862b9c7858710143","toSide":"top"}
+		{"id":"76e54f2871587d95","fromNode":"da1370bc067dbfe5","fromSide":"left","toNode":"862b9c7858710143","toSide":"top"},
+		{"id":"e8908beb192901b0","fromNode":"862b9c7858710143","fromSide":"right","toNode":"965e3493048971ee","toSide":"left","label":"Expect to get vertices in canonical view volume"}
 	]
 }
