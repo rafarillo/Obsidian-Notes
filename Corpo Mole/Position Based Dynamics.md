@@ -24,10 +24,25 @@ As constraints $j \in [1, \ \cdots ,\ M]$ consistem em:
 - Um conjunto de indices $\{ i_{1}, \cdots ,i_{n_{j}}\},\ i_{k} \in [1, \cdots N]$
 - Um parametro de stiffness (rigidez) $k_{j} \in [0, \cdots , 1]$
 - Uma igualdade ou inequalidade
-
+O parametro $k_{j}$ (rigidez) define a influencia da constraint $j$ 
 ### Algoritmo
 
-![[Pasted image 20250112133848.png]]
-
+![[Pasted image 20250114073224.png]]
 ### Solver
 Baseado no metodo Gauss-Seidel-type iteration. No entanto, esse metodo é só para lidar com sistemas lineares. Usaremos a ideia do GS de resolver as restrições independemente uma após a outra.
+
+##### Constraint projection
+Projetar um conjunto de pontos de acordo com uma constraint significa mover os pontos de tal forma que eles satisfaçam a constraint.
+
+**Constraint de momento linear**
+
+$\sum_{i} m_{i} \Delta p_{i} = 0$
+
+- Onde $\Delta p_{i}$ é o vetor de deslocamento do vertice $i$
+
+**Constraint de momento angular**
+
+$\sum_{i} r_{i} \times m_{i} \Delta p_{i} = 0$
+
+- Onde $r_{i}$ é a distancia de $p_{i}$ até um ponto central arbitrário.
+

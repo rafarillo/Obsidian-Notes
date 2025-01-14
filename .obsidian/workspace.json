@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Corpo Mole/Extreme Position Based Dynamics.md",
+                "file": "Corpo Mole/Position Based Dynamics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Extreme Position Based Dynamics"
+              "title": "Position Based Dynamics"
             }
           }
         ]
@@ -165,8 +165,9 @@
   },
   "active": "08386695e7c13b83",
   "lastOpenFiles": [
-    "Corpo Mole/Referencias.md",
+    "Corpo Mole/Pasted image 20250114073224.png",
     "Corpo Mole/Extreme Position Based Dynamics.md",
+    "Corpo Mole/Referencias.md",
     "Corpo Mole/Position Based Dynamics.md",
     "Corpo Mole/Pasted image 20250112133848.png",
     "New Formato Rich Text.rtf",
