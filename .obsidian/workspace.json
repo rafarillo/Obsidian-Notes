@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Corpo Mole/Referencias.md",
+                "file": "Corpo Mole/Extreme Position Based Dynamics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Referencias"
+              "title": "Extreme Position Based Dynamics"
             }
           }
         ]
@@ -163,16 +163,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4b44a812d7d1f93b",
+  "active": "08386695e7c13b83",
   "lastOpenFiles": [
+    "Corpo Mole/Referencias.md",
+    "Corpo Mole/Extreme Position Based Dynamics.md",
+    "Corpo Mole/Position Based Dynamics.md",
+    "Corpo Mole/Pasted image 20250112133848.png",
     "New Formato Rich Text.rtf",
     "CG/InteractiveComputer/3. Windowing APIs.md",
     "CG/Books/RealTimeRendering 4th/Chap6.md",
     "Excalidraw/Surface Reflextion.md",
     "Backend/Fundamentals Of BackEnd engeniring/Section 2.md",
-    "Corpo Mole/Position Based Dynamics.md",
-    "Corpo Mole/Referencias.md",
-    "Corpo Mole/Extreme Position Based Dynamics.md",
     "Maratona/DP.md",
     "CG/InteractiveComputer/5. Intro GLSL.md",
     "Corpo Mole",
@@ -208,11 +209,9 @@
     "GameDesign/The Art of Game Design/Pasted image 20241008010318.png",
     "GameDesign/The Art of Game Design/L6.png",
     "GameDesign/The Art of Game Design/L5.png",
-    "GameDesign/The Art of Game Design/L4.png",
     "CG/InteractiveComputer/Texture Unit.canvas",
     "Valete/Debate_Oratoria",
     "Valete",
-    "Backend/Fundamentals Of BackEnd engeniring/Resources/backendcourse-sourcecode.zip",
-    "Backend/Fundamentals Of BackEnd engeniring/Resources/Fundamentals+of+Backend+Communications+and+Protocols.odp"
+    "Backend/Fundamentals Of BackEnd engeniring/Resources/backendcourse-sourcecode.zip"
   ]
 }
