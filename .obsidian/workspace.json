@@ -4,24 +4,53 @@
     "type": "split",
     "children": [
       {
-        "id": "ae8b15d9d0531d47",
+        "id": "febaacddc1eec9fe",
         "type": "tabs",
         "children": [
           {
-            "id": "08386695e7c13b83",
+            "id": "05726db7d79db5c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Corpo Mole/Position Based Dynamics.md",
+                "file": "CG/Corpo Mole/Referencias.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Position Based Dynamics"
+              "title": "Referencias"
+            }
+          },
+          {
+            "id": "6336330dd534840f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CG/Corpo Mole/Referencias.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Referencias"
+            }
+          },
+          {
+            "id": "1562a4c069a916d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Visão/Coursera/Vision as a Copmutational Problem/Modulo1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Modulo1"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -40,7 +69,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -163,12 +193,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "08386695e7c13b83",
+  "active": "1562a4c069a916d8",
   "lastOpenFiles": [
-    "Corpo Mole/Pasted image 20250114073224.png",
-    "Corpo Mole/Extreme Position Based Dynamics.md",
-    "Corpo Mole/Referencias.md",
-    "Corpo Mole/Position Based Dynamics.md",
+    "Excalidraw/Aliasing.excalidraw.md",
+    "Visão/Coursera/Vision as a Copmutational Problem/Modulo1.md",
+    "Visão/Coursera/Vision as a Copmutational Problem",
+    "Visão/Coursera",
+    "Visão",
+    "CG/Corpo Mole/Extreme Position Based Dynamics.md",
+    "CG/Corpo Mole/PBD Constraint.md",
+    "CG/Corpo Mole/Referencias.md",
+    "CG/Corpo Mole/Position Based Dynamics.md",
+    "CG/Corpo Mole/Vertex Block Descent (VBD).md",
+    "CG/Coursera/Interactive Computer graphics/Module 2.md",
+    "CG/Coursera/Interactive Computer graphics/Module 1.md",
+    "CG/Corpo Mole/Pasted image 20250114073224.png",
+    "CG/Coursera/Interactive Computer graphics/Pasted image 20250210200831.png",
+    "CG/Coursera/Interactive Computer graphics",
+    "CG/Coursera",
+    "CG/InteractiveComputer/4. Intro Modern OpenGL.md",
+    "CG/Game_Physics_Engine",
+    "CG/InteractiveComputer/Pipeline Overview.canvas",
     "Corpo Mole/Pasted image 20250112133848.png",
     "New Formato Rich Text.rtf",
     "CG/InteractiveComputer/3. Windowing APIs.md",
@@ -177,10 +222,8 @@
     "Backend/Fundamentals Of BackEnd engeniring/Section 2.md",
     "Maratona/DP.md",
     "CG/InteractiveComputer/5. Intro GLSL.md",
-    "Corpo Mole",
-    "CG/InteractiveComputer/4. Intro Modern OpenGL.md",
+    "CG/Corpo Mole",
     "CG/InteractiveComputer/6. Triangular meshes.md",
-    "Excalidraw/Aliasing.excalidraw.md",
     "Maratona",
     "Backend/Internet.md",
     "Excalidraw/Demultiplexing vs multipexing.md",
@@ -196,23 +239,10 @@
     "Excalidraw/Convolution.md",
     "Excalidraw/Untitled.md",
     "CG/Books/Physics-Based Animation/2. Articulated Figures.md",
-    "CG/Books/Fundamentals In CG",
-    "CG/Books/Physics-Based Animation/1. Intro.md",
-    "CG/Books/Physics-Based Animation/V vector matrices and quaternions/Math.md",
-    "CG/Books/Physics-Based Animation/II Multibody Animation/5. Penalty-Based Multibody Animation.md",
-    "CG/Books/Texture & Modeling/Pages.md",
-    "CG/Real-Time Rendering 4ed",
     "CG/InteractiveComputer/GPU Pipeline.canvas",
-    "CG/Untitled",
-    "CG/InteractiveComputer/Pipeline Overview.canvas",
     "GameDesign/The Art of Game Design/Pasted image 20241008004741.png",
     "GameDesign/The Art of Game Design/Pasted image 20241008005939.png",
     "GameDesign/The Art of Game Design/Pasted image 20241008010318.png",
-    "GameDesign/The Art of Game Design/L6.png",
-    "GameDesign/The Art of Game Design/L5.png",
-    "CG/InteractiveComputer/Texture Unit.canvas",
-    "Valete/Debate_Oratoria",
-    "Valete",
-    "Backend/Fundamentals Of BackEnd engeniring/Resources/backendcourse-sourcecode.zip"
+    "CG/InteractiveComputer/Texture Unit.canvas"
   ]
 }

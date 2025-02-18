@@ -10,6 +10,7 @@ https://www.sciencedirect.com/science/article/abs/pii/S0010482523007321
 | Diferenças finitas                  | https://pubmed.ncbi.nlm.nih.gov/36006884/                               |
 | [[Position Based Dynamics]]         | https://www.sciencedirect.com/science/article/abs/pii/S1047320307000065 |
 | [[Extreme Position Based Dynamics]] | https://matthias-research.github.io/pages/publications/XPBD.pdf         |
+| [[Vertex Block Descent (VBD)]]      | https://graphics.cs.utah.edu/research/projects/vbd/vbd-siggraph2024.pdf |
 #### [[Position Based Dynamics]]
 Aplicação baseada em monitores 2D/3D pode ser encontrada em:
 https://ieeexplore.ieee.org/document/9841530
