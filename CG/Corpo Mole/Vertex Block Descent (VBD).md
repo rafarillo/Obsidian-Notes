@@ -49,5 +49,23 @@ $x_{a}$ e $x_{b}$ - pontos de contato
 $\hat{n}$ - normal do contato
 
 Existem dois tipos de colisão entre meshes triangulares
-- Aresta-Aresta: usamos detecção de colisão continua (CCD)(https://www.youtube.com/watch?v=aE7GA1stIUk). $x_{a}$ e $x_{b}$ correspondem aos pontos de interseção de cada aresta e a normal é a direção entre eles $n = x_{b} - x_{a}$
+- Aresta-Aresta: usamos detecção de colisão continua (CCD)(https://www.youtube.com/watch?v=aE7GA1stIUk | https://www.youtube.com/watch?v=eED4bSkYCB8). $x_{a}$ e $x_{b}$ correspondem aos pontos de interseção de cada aresta e a normal é a direção entre eles $n = x_{b} - x_{a}$
 - Vértice-Triangulo: ou usamos CCD ou DCD. Nesse caso $x_{a}$ é o vértice que está colidindo e $x_{b}$ corresponde é o ponto no triangulo (tanto para CCD ou DCD), $\hat{n}$ é a normal da superfície em $x_{b}$
+
+## Fricção
+Para computar a fricção para a colisão $c$ , devemos considerar o movimento relativo ao ponto de contato $$\delta x_{c} = (x_{a} - x_{a}^{t)}- (x_{b} - x_{b}^t)$$
+Onde $x_{a}^t$ e $x_{b}^t$ são as posição de $x_{a}$ e $x_{b}$ no começo do timestep. Para calcular a força de atrito usa-se o modelo IPC (incremental potential contact).
+
+## Inicialização
+
+Pode-se inicializar a simulação de quatro formas formas ...
+
+## Paralelização
+Gausss-Seidel-type metodo iterativo são frequentemente paralelizados usando graph coloring para determinar os grupos que serão paralelizados sem alterar a natureza sequencial do loop Gauss-Seidel.
+
+#### Perguntas
+- Onde que é o ponto de estabilização da simulação
+	- Os pontos onde a aceleração é igual a zero (inércia ou seja "hessiano é igual a zero")
+#### Duvidas
+- As constraint do VBD podem ser as mesmas do PBD/XPBD? Ou precisam ser adaptadas?
+- Paralelização, o número de cores no graph coloring é determinado pelo numero de nucleos na CPU/GPU

@@ -41,16 +41,58 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Visão/Coursera/Vision as a Copmutational Problem/Modulo1.md",
+                "file": "CG/Corpo Mole/Extreme Position Based Dynamics.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Modulo1"
+              "title": "Extreme Position Based Dynamics"
+            }
+          },
+          {
+            "id": "4e5f0c86ed8ff023",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Maratona/Problems/Check if Number is a Sum of Powers of Three.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Check if Number is a Sum of Powers of Three"
+            }
+          },
+          {
+            "id": "ed453cf7a969eca3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CG/Corpo Mole/Vertex Block Descent (VBD).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Vertex Block Descent (VBD)"
+            }
+          },
+          {
+            "id": "3a92a3050eed7ddd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Architecture/Design Patterns/Level up your code with design patterns and SOLID/The SOLID principles.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "The SOLID principles"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -190,55 +232,55 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "vscode-editor:Create Code File": false
     }
   },
-  "active": "1562a4c069a916d8",
+  "active": "4b44a812d7d1f93b",
   "lastOpenFiles": [
-    "Excalidraw/Aliasing.excalidraw.md",
+    "My code file.css",
+    "Architecture/Design Patterns/Level up your code with design patterns and SOLID/The SOLID principles.md",
+    "Architecture/Design Patterns/Level up your code with design patterns and SOLID/Scripts/OpenClose.css",
+    "Architecture/Design Patterns/Level up your code with design patterns and SOLID/Scripts/Untitled.md",
+    "Architecture/Design Patterns/Level up your code with design patterns and SOLID/Scripts",
+    "Excalidraw/Drawing 2025-03-16 17.34.22.excalidraw.md",
+    "Architecture/Design Patterns/Level up your code with design patterns and SOLID",
+    "Architecture/Design Patterns",
+    "Architecture",
+    "CG/Corpo Mole/Fast and Compact Partial Differential Equation (PDE).md",
+    "CG/Corpo Mole/Vertex Block Descent (VBD).md",
+    "Maratona/Problems/Check if Number is a Sum of Powers of Three.md",
+    "Maratona/Problems/Sum of Three Problem.md",
+    "Maratona/DP.md",
+    "Maratona/Problems",
+    "CG/Coursera/Computational Vision/Module 2.md",
+    "CG/Corpo Mole/State-of-the-art Improvements and Application of Position Based Dynamics.md",
+    "CG/Corpo Mole/Extreme Position Based Dynamics.md",
+    "CG/Coursera/Computational Vision",
+    "CG/Corpo Mole/XPBD.md",
+    "Excalidraw/Drawing 2024-06-13 08.02.35.excalidraw.md",
+    "CG/Corpo Mole/PBD Constraint.md",
+    "CG/Corpo Mole/Position Based Dynamics.md",
+    "CG/Corpo Mole/Pasted image 20250114073224.png",
     "Visão/Coursera/Vision as a Copmutational Problem/Modulo1.md",
+    "Excalidraw/Aliasing.excalidraw.md",
     "Visão/Coursera/Vision as a Copmutational Problem",
     "Visão/Coursera",
-    "Visão",
-    "CG/Corpo Mole/Extreme Position Based Dynamics.md",
-    "CG/Corpo Mole/PBD Constraint.md",
     "CG/Corpo Mole/Referencias.md",
-    "CG/Corpo Mole/Position Based Dynamics.md",
-    "CG/Corpo Mole/Vertex Block Descent (VBD).md",
     "CG/Coursera/Interactive Computer graphics/Module 2.md",
     "CG/Coursera/Interactive Computer graphics/Module 1.md",
-    "CG/Corpo Mole/Pasted image 20250114073224.png",
     "CG/Coursera/Interactive Computer graphics/Pasted image 20250210200831.png",
-    "CG/Coursera/Interactive Computer graphics",
-    "CG/Coursera",
     "CG/InteractiveComputer/4. Intro Modern OpenGL.md",
-    "CG/Game_Physics_Engine",
     "CG/InteractiveComputer/Pipeline Overview.canvas",
     "Corpo Mole/Pasted image 20250112133848.png",
-    "New Formato Rich Text.rtf",
     "CG/InteractiveComputer/3. Windowing APIs.md",
     "CG/Books/RealTimeRendering 4th/Chap6.md",
     "Excalidraw/Surface Reflextion.md",
     "Backend/Fundamentals Of BackEnd engeniring/Section 2.md",
-    "Maratona/DP.md",
-    "CG/InteractiveComputer/5. Intro GLSL.md",
-    "CG/Corpo Mole",
-    "CG/InteractiveComputer/6. Triangular meshes.md",
-    "Maratona",
-    "Backend/Internet.md",
-    "Excalidraw/Demultiplexing vs multipexing.md",
     "Pasted image 20241028202257.png",
     "Backend/Pasted image 20240909212028.png",
-    "Backend/Fundamentals Of BackEnd engeniring/Resources/rabbitMQ-pushAPI.pdf",
-    "CG/InteractiveComputer/2. Rendering algorithms.md",
-    "CG/Books/RealTimeRendering 4th/Chap6 Texture Pipeline.md",
     "CG/Books/RealTimeRendering 4th/chap6 img.png",
-    "CG/Books/RealTimeRendering 4th/Chapter2.md",
-    "CG/Books/Fundamentals In CG/CHap9.md",
     "CG/Books/Fundamentals In CG/Pasted image 20241012161514.png",
-    "Excalidraw/Convolution.md",
-    "Excalidraw/Untitled.md",
-    "CG/Books/Physics-Based Animation/2. Articulated Figures.md",
     "CG/InteractiveComputer/GPU Pipeline.canvas",
     "GameDesign/The Art of Game Design/Pasted image 20241008004741.png",
     "GameDesign/The Art of Game Design/Pasted image 20241008005939.png",
