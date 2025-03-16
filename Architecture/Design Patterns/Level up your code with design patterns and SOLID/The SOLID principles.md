@@ -253,3 +253,164 @@ No nosso caso as funcionalidades vem através de interfaces ao invés de heranç
 Use LSP para limitar como você herda para manter sua base de código flexível e extendível.
 
 ## Interface Segregation principle
+Esse princípio afirma que nenhum client deveria ser forçado a depender de métodos que não está utilizando (Evite interfaces longas).
+
+```C#
+public interface IUnitStats
+{
+    public float Health { get; set; }
+    public int Defense { get; set; }
+    public void Die();
+    public void TakeDamage();
+    public void RestoreHealth();
+    public float MoveSpeed { get; set; }
+    public float Acceleration { get; set; }
+    public void GoForward();
+    public void Reverse();
+    public void TurnLeft();
+    public void TurnRight();
+    public int Strength { get; set; }
+    public int Dexterity { get; set; }
+    public int Endurance { get; set; }
+}
+```
+
+O problema dessa interface é que ela tem muitos métodos. Logo se alguma classe precisar implementar essa interface, essa classe terá que implementar métodos indesejáveis (barril explosivo exemplo).
+
+```C#
+public interface IMovable
+{
+    public float MoveSpeed { get; set; }
+    public float Acceleration { get; set; }
+    public void GoForward();
+    public void Reverse();
+    public void TurnLeft();
+    public void TurnRight();
+}
+
+public interface IDamageable
+{
+    public float Health { get; set; }
+    public int Defense { get; set; }
+    public void Die();
+    public void TakeDamage();
+    public void RestoreHealth();
+}
+
+public interface IUnitStats
+{
+    public int Strength { get; set; }
+    public int Dexterity { get; set; }
+    public int Endurance { get; set; }
+}
+
+public interface IExplodable
+{
+    public float Mass { get; set; }
+    public float ExplosiveForce { get; set; }
+    public float FuseDelay { get; set; }
+    public void Explode();
+}
+
+public class ExplodingBarrel : MonoBehaviour, IDamageable, IExplodable
+{
+    ...
+}
+
+public class EnemyUnit : MonoBehaviour, IDamageable, IMovable, IUnitStats
+{
+    ...
+}
+```
+
+## Dependency Inversion
+Esse princípio afirma que modulos high-level não deveriam importar nada diretamente a partir de modulos low-level. Ambos deveriam depender de abstrações.
+
+Quando uma classe depende de outra, ela tem uma dependência ou está acoplada. Cada dependencia em um software carrega um risco
+
+Se uma classe sabe muito sobre o funcionamento de outra, se modificarmos a primeira classe, a segunda classe será comprometida. Uma dependencia de grau alto pode ser considerada uma pratica de codigo sujo.
+
+O DI pode ajudar a diminuir o coupling entre as classes.
+
+Construindo software, naturalmente classes high/low-level vão surgindo. Uma classe high-level depende de uma de low-level para executar sua tarefa. DI nos diz para mudarmos isso.
+
+Considere que estamos criando um jogo e queremos adiciona uma porta que abre e fecha.
+
+```C#
+public class Switch : MonoBehaviour
+{
+    public Door door;
+    public bool isActivated;
+    public void Toggle()
+    {
+        if (isActivated)
+        {
+            isActivated = false;
+            door.Close();
+        }
+        else
+        {
+            isActivated = true;
+            door.Open();
+        }
+    }
+}
+
+public class Door : MonoBehaviour
+{
+    public void Open()
+    {
+        Debug.Log(“The door is open.”);
+    }
+
+    public void Close()
+    {
+        Debug.Log(“The door is closed.”);
+    }
+}
+```
+
+Acontece que agora queremos adicionar outras coisas que podem "abrir/fechar" como uma luz, um robo, isto é, queremos desacoplar a classe switch com a classe door. Para fazermos isso criaremos uma classe  *ISwitchtable* e a classe *switch* recebe instancias da interface.
+
+```C#
+public interface ISwitchable
+{
+    public bool IsActive { get; }
+    public void Activate();
+    public void Deactivate();
+}
+
+public class Switch : MonoBehaviour
+{
+    public ISwitchable client;
+    public void Toggle()
+    {
+        if (client.IsActive)
+        {
+            client.Deactivate();
+        }
+        else
+        {
+            client.Activate();
+        }
+    }
+}
+
+public class Door : MonoBehaviour, ISwitchable
+{
+    private bool isActive;
+    public bool IsActive => isActive;
+    public void Activate()
+    {
+        isActive = true;
+        Debug.Log(“The door is open.”);
+    }
+
+    public void Deactivate()
+    {
+        isActive = false;
+        Debug.Log(“The door is closed.”);
+    }
+}
+```
+
