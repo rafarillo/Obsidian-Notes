@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Architecture/Design Patterns/Level up your code with design patterns and SOLID/The SOLID principles.md",
+                "file": "CG/Neural Volumetric Rendering/Palestra de Neural Volumetric Rendering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "The SOLID principles"
+              "title": "Palestra de Neural Volumetric Rendering"
             }
           }
         ]
@@ -166,8 +166,11 @@
   },
   "active": "4b44a812d7d1f93b",
   "lastOpenFiles": [
-    "My code file.css",
+    "CG/Neural Volumetric Rendering/Pasted image 20250318210747.png",
     "Architecture/Design Patterns/Level up your code with design patterns and SOLID/The SOLID principles.md",
+    "CG/Neural Volumetric Rendering/Palestra de Neural Volumetric Rendering.md",
+    "CG/Neural Volumetric Rendering",
+    "My code file.css",
     "Architecture/Design Patterns/Level up your code with design patterns and SOLID/Scripts/OpenClose.css",
     "Architecture/Design Patterns/Level up your code with design patterns and SOLID/Scripts/Untitled.md",
     "Architecture/Design Patterns/Level up your code with design patterns and SOLID/Scripts",
@@ -193,7 +196,6 @@
     "Visão/Coursera/Vision as a Copmutational Problem/Modulo1.md",
     "Excalidraw/Aliasing.excalidraw.md",
     "Visão/Coursera/Vision as a Copmutational Problem",
-    "Visão/Coursera",
     "CG/Corpo Mole/Referencias.md",
     "CG/Coursera/Interactive Computer graphics/Module 2.md",
     "CG/Coursera/Interactive Computer graphics/Module 1.md",
@@ -204,7 +206,6 @@
     "CG/InteractiveComputer/3. Windowing APIs.md",
     "CG/Books/RealTimeRendering 4th/Chap6.md",
     "Excalidraw/Surface Reflextion.md",
-    "Backend/Fundamentals Of BackEnd engeniring/Section 2.md",
     "Pasted image 20241028202257.png",
     "Backend/Pasted image 20240909212028.png",
     "CG/Books/RealTimeRendering 4th/chap6 img.png",
