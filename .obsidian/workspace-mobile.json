@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "a772d1206fb7fa8c",
+    "type": "split",
+    "children": [
+      {
+        "id": "e68c2c729b728c37",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2aa9edfbd61b4d1a",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/TestTablet.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "TestTablet.excalidraw"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "743a0d03c462936c",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "1a84d5783d62cc2b",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "Files"
+        }
+      },
+      {
+        "id": "fa428078562429ac",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "Search"
+        }
+      },
+      {
+        "id": "75ae8ea1cbed664f",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-tags",
+          "title": "Tags"
+        }
+      },
+      {
+        "id": "a5aad97fa78ca5fa",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "Bookmarks"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "3896b2372908f6e3",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "a6483cd085627664",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "Excalidraw/Some.excalidraw.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "Backlinks"
+        }
+      },
+      {
+        "id": "13f68fe55ad607e8",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "Excalidraw/Some.excalidraw.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "Outgoing links"
+        }
+      },
+      {
+        "id": "b943aa589d1622f5",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "Excalidraw/Some.excalidraw.md",
+            "followCursor": false,
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-list",
+          "title": "Outline"
+        }
+      },
+      {
+        "id": "06c7eaa29e52f4c7",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "SpacedRepIcon",
+          "title": "Notes Review Queue"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-spaced-repetition:Review flashcards": false
+    }
+  },
+  "active": "2aa9edfbd61b4d1a",
+  "lastOpenFiles": [
+    "Excalidraw/Some.excalidraw.md",
+    "Excalidraw/TestTablet.excalidraw.md"
+  ]
+}
