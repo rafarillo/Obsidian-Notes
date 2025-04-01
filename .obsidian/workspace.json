@@ -11,14 +11,12 @@
             "id": "3a92a3050eed7ddd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Product Management/O'Reilly/Product Management Fundamentals The Who/Module 2.md",
-                "mode": "source",
-                "source": false
+                "file": "CG/Books/Fundamentals Of Computer Graphics/Pasted image 20250326203827.png"
               },
-              "icon": "lucide-file",
-              "title": "Module 2"
+              "icon": "lucide-image",
+              "title": "Pasted image 20250326203827"
             }
           }
         ]
@@ -177,17 +175,18 @@
   },
   "active": "4b44a812d7d1f93b",
   "lastOpenFiles": [
-    "CG/Neural Volumetric Rendering/State of The Art for Volume Rendering.md",
+    "CG/Books/Fundamentals Of Computer Graphics/Pasted image 20250326203827.png",
+    "CG/Books/Fundamentals In CG/CHap9.md",
     "Product Management/O'Reilly/Product Management Fundamentals The Who/Module 2.md",
-    "CG/Fundamentals Of Computer Graphics/9. Signal Processing.md",
+    "CG/Neural Volumetric Rendering/State of The Art for Volume Rendering.md",
+    "CG/Books/Fundamentals Of Computer Graphics/9. Signal Processing.md",
     "Product Management/O'Reilly/Product Management Fundamentals The Who, What, and Why, and How/Module 1.md",
     "Product Management/O'Reilly/Product Management Fundamentals The Who",
     "Product Management/O'Reilly/Product Management Fundamentals The Who, What, and Why, and How",
     "Product Management/O'Reilly",
     "Product Management",
-    "CG/Fundamentals Of Computer Graphics/Pasted image 20250326203827.png",
     "CG/InteractiveComputer/26. Volume Rendering.md",
-    "CG/Fundamentals Of Computer Graphics",
+    "CG/Books/Fundamentals Of Computer Graphics",
     "Architecture/Design Patterns/Level up your code with design patterns and SOLID/Scripts/Factory Pattern.md",
     "Architecture/Design Patterns/Level up your code with design patterns and SOLID/The SOLID principles.md",
     "CG/Neural Volumetric Rendering/Palestra de Neural Volumetric Rendering.md",
@@ -214,8 +213,6 @@
     "Visão/Coursera/Vision as a Copmutational Problem/Modulo1.md",
     "Excalidraw/Aliasing.excalidraw.md",
     "CG/Corpo Mole/Referencias.md",
-    "CG/Coursera/Interactive Computer graphics/Module 2.md",
-    "CG/Coursera/Interactive Computer graphics/Module 1.md",
     "CG/Coursera/Interactive Computer graphics/Pasted image 20250210200831.png",
     "CG/InteractiveComputer/Pipeline Overview.canvas",
     "Corpo Mole/Pasted image 20250112133848.png",
