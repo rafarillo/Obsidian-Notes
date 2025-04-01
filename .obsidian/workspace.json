@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CG/Neural Volumetric Rendering/Palestra de Neural Volumetric Rendering.md",
+                "file": "Product Management/O'Reilly/Product Management Fundamentals The Who/Module 2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Palestra de Neural Volumetric Rendering"
+              "title": "Module 2"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#flashcards/ProductManagement",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -145,13 +145,23 @@
               "icon": "lucide-list",
               "title": "Outline of Section 2"
             }
+          },
+          {
+            "id": "da3fe46b5def7f74",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 231.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -161,33 +171,41 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
   "active": "4b44a812d7d1f93b",
   "lastOpenFiles": [
-    "CG/Neural Volumetric Rendering/Pasted image 20250318210747.png",
+    "CG/Neural Volumetric Rendering/State of The Art for Volume Rendering.md",
+    "Product Management/O'Reilly/Product Management Fundamentals The Who/Module 2.md",
+    "CG/Fundamentals Of Computer Graphics/9. Signal Processing.md",
+    "Product Management/O'Reilly/Product Management Fundamentals The Who, What, and Why, and How/Module 1.md",
+    "Product Management/O'Reilly/Product Management Fundamentals The Who",
+    "Product Management/O'Reilly/Product Management Fundamentals The Who, What, and Why, and How",
+    "Product Management/O'Reilly",
+    "Product Management",
+    "CG/Fundamentals Of Computer Graphics/Pasted image 20250326203827.png",
+    "CG/InteractiveComputer/26. Volume Rendering.md",
+    "CG/Fundamentals Of Computer Graphics",
+    "Architecture/Design Patterns/Level up your code with design patterns and SOLID/Scripts/Factory Pattern.md",
     "Architecture/Design Patterns/Level up your code with design patterns and SOLID/The SOLID principles.md",
     "CG/Neural Volumetric Rendering/Palestra de Neural Volumetric Rendering.md",
+    "CG/Neural Volumetric Rendering/Pasted image 20250318210747.png",
     "CG/Neural Volumetric Rendering",
     "My code file.css",
     "Architecture/Design Patterns/Level up your code with design patterns and SOLID/Scripts/OpenClose.css",
-    "Architecture/Design Patterns/Level up your code with design patterns and SOLID/Scripts/Untitled.md",
     "Architecture/Design Patterns/Level up your code with design patterns and SOLID/Scripts",
     "Excalidraw/Drawing 2025-03-16 17.34.22.excalidraw.md",
     "Architecture/Design Patterns/Level up your code with design patterns and SOLID",
-    "Architecture/Design Patterns",
-    "Architecture",
     "CG/Corpo Mole/Fast and Compact Partial Differential Equation (PDE).md",
     "CG/Corpo Mole/Vertex Block Descent (VBD).md",
     "Maratona/Problems/Check if Number is a Sum of Powers of Three.md",
     "Maratona/Problems/Sum of Three Problem.md",
     "Maratona/DP.md",
-    "Maratona/Problems",
     "CG/Coursera/Computational Vision/Module 2.md",
     "CG/Corpo Mole/State-of-the-art Improvements and Application of Position Based Dynamics.md",
     "CG/Corpo Mole/Extreme Position Based Dynamics.md",
-    "CG/Coursera/Computational Vision",
     "CG/Corpo Mole/XPBD.md",
     "Excalidraw/Drawing 2024-06-13 08.02.35.excalidraw.md",
     "CG/Corpo Mole/PBD Constraint.md",
@@ -195,25 +213,18 @@
     "CG/Corpo Mole/Pasted image 20250114073224.png",
     "Visão/Coursera/Vision as a Copmutational Problem/Modulo1.md",
     "Excalidraw/Aliasing.excalidraw.md",
-    "Visão/Coursera/Vision as a Copmutational Problem",
     "CG/Corpo Mole/Referencias.md",
     "CG/Coursera/Interactive Computer graphics/Module 2.md",
     "CG/Coursera/Interactive Computer graphics/Module 1.md",
     "CG/Coursera/Interactive Computer graphics/Pasted image 20250210200831.png",
-    "CG/InteractiveComputer/4. Intro Modern OpenGL.md",
     "CG/InteractiveComputer/Pipeline Overview.canvas",
     "Corpo Mole/Pasted image 20250112133848.png",
-    "CG/InteractiveComputer/3. Windowing APIs.md",
-    "CG/Books/RealTimeRendering 4th/Chap6.md",
-    "Excalidraw/Surface Reflextion.md",
     "Pasted image 20241028202257.png",
     "Backend/Pasted image 20240909212028.png",
     "CG/Books/RealTimeRendering 4th/chap6 img.png",
     "CG/Books/Fundamentals In CG/Pasted image 20241012161514.png",
     "CG/InteractiveComputer/GPU Pipeline.canvas",
     "GameDesign/The Art of Game Design/Pasted image 20241008004741.png",
-    "GameDesign/The Art of Game Design/Pasted image 20241008005939.png",
-    "GameDesign/The Art of Game Design/Pasted image 20241008010318.png",
     "CG/InteractiveComputer/Texture Unit.canvas"
   ]
 }
