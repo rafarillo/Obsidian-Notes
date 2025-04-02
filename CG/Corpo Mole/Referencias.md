@@ -23,3 +23,4 @@ Em https://matthias-research.github.io/pages/publications/XPBD.pdf relata-se for
 
 Em https://arxiv.org/abs/2208.00169 utiliza-se [[Extreme Position Based Dynamics]] para melhorar a performance em uma aplicação VR 
 
+![[Drawing 2025-04-01 20.15.56.excalidraw]]
