@@ -11,12 +11,14 @@
             "id": "3a92a3050eed7ddd",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "CG/Books/Fundamentals Of Computer Graphics/Pasted image 20250326203827.png"
+                "file": "CG/Books/Fundamentals Of Computer Graphics/9. Signal Processing.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250326203827"
+              "icon": "lucide-file",
+              "title": "9. Signal Processing"
             }
           }
         ]
@@ -173,9 +175,15 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "4b44a812d7d1f93b",
+  "active": "3a92a3050eed7ddd",
   "lastOpenFiles": [
+    "HandWrittenNotes/9. Signal Processing.pdf",
+    "Excalidraw/9. Signal Processing.excalidraw.md",
+    "HandWrittenNotes/CG Fundamentals.pdf",
+    "HandWrittenNotes",
+    "Nova pasta",
     "CG/Books/Fundamentals Of Computer Graphics/Pasted image 20250326203827.png",
+    "Excalidraw/Drawing 2025-04-01 20.15.56.excalidraw.md",
     "CG/Books/Fundamentals In CG/CHap9.md",
     "Product Management/O'Reilly/Product Management Fundamentals The Who/Module 2.md",
     "CG/Neural Volumetric Rendering/State of The Art for Volume Rendering.md",
@@ -193,10 +201,7 @@
     "CG/Neural Volumetric Rendering/Pasted image 20250318210747.png",
     "CG/Neural Volumetric Rendering",
     "My code file.css",
-    "Architecture/Design Patterns/Level up your code with design patterns and SOLID/Scripts/OpenClose.css",
-    "Architecture/Design Patterns/Level up your code with design patterns and SOLID/Scripts",
     "Excalidraw/Drawing 2025-03-16 17.34.22.excalidraw.md",
-    "Architecture/Design Patterns/Level up your code with design patterns and SOLID",
     "CG/Corpo Mole/Fast and Compact Partial Differential Equation (PDE).md",
     "CG/Corpo Mole/Vertex Block Descent (VBD).md",
     "Maratona/Problems/Check if Number is a Sum of Powers of Three.md",
@@ -211,8 +216,6 @@
     "CG/Corpo Mole/Position Based Dynamics.md",
     "CG/Corpo Mole/Pasted image 20250114073224.png",
     "Visão/Coursera/Vision as a Copmutational Problem/Modulo1.md",
-    "Excalidraw/Aliasing.excalidraw.md",
-    "CG/Corpo Mole/Referencias.md",
     "CG/Coursera/Interactive Computer graphics/Pasted image 20250210200831.png",
     "CG/InteractiveComputer/Pipeline Overview.canvas",
     "Corpo Mole/Pasted image 20250112133848.png",
