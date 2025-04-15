@@ -13,11 +13,23 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CG/Books/Fundamentals Of Computer Graphics/9. Signal Processing.md",
+                "file": "CG/Books/Real-Time Volume Graphics/1. Theoretical Background.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
+              "title": "1. Theoretical Background"
+            }
+          },
+          {
+            "id": "f87ee56d4ab0cc7c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "HandWrittenNotes/9. Signal Processing.pdf"
+              },
+              "icon": "lucide-file-text",
               "title": "9. Signal Processing"
             }
           }
@@ -53,7 +65,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#flashcards/ProductManagement",
+                "query": "tag:#flashcards/VolumeRendering",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -175,32 +187,33 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "3a92a3050eed7ddd",
+  "active": "4b44a812d7d1f93b",
   "lastOpenFiles": [
+    "Product Management/O'Reilly/Product Management Fundamentals The Who/Module 2.md",
+    "CG/Books/Real-Time Volume Graphics/1. Theoretical Background.md",
+    "HandWrittenNotes/1. Theoretical Background.pdf",
+    "CG/Books/Texture & Modeling/Pages.md",
+    "CG/Books/Real-Time Volume Graphics",
+    "CG/Books/Fundamentals Of Computer Graphics/9. Signal Processing.md",
     "HandWrittenNotes/9. Signal Processing.pdf",
+    "CG/Books/Fundamentals Of Computer Graphics/Pasted image 20250326203827.png",
     "Excalidraw/9. Signal Processing.excalidraw.md",
     "HandWrittenNotes/CG Fundamentals.pdf",
     "HandWrittenNotes",
     "Nova pasta",
-    "CG/Books/Fundamentals Of Computer Graphics/Pasted image 20250326203827.png",
     "Excalidraw/Drawing 2025-04-01 20.15.56.excalidraw.md",
     "CG/Books/Fundamentals In CG/CHap9.md",
-    "Product Management/O'Reilly/Product Management Fundamentals The Who/Module 2.md",
     "CG/Neural Volumetric Rendering/State of The Art for Volume Rendering.md",
-    "CG/Books/Fundamentals Of Computer Graphics/9. Signal Processing.md",
     "Product Management/O'Reilly/Product Management Fundamentals The Who, What, and Why, and How/Module 1.md",
     "Product Management/O'Reilly/Product Management Fundamentals The Who",
     "Product Management/O'Reilly/Product Management Fundamentals The Who, What, and Why, and How",
     "Product Management/O'Reilly",
     "Product Management",
     "CG/InteractiveComputer/26. Volume Rendering.md",
-    "CG/Books/Fundamentals Of Computer Graphics",
     "Architecture/Design Patterns/Level up your code with design patterns and SOLID/Scripts/Factory Pattern.md",
     "Architecture/Design Patterns/Level up your code with design patterns and SOLID/The SOLID principles.md",
     "CG/Neural Volumetric Rendering/Palestra de Neural Volumetric Rendering.md",
     "CG/Neural Volumetric Rendering/Pasted image 20250318210747.png",
-    "CG/Neural Volumetric Rendering",
-    "My code file.css",
     "Excalidraw/Drawing 2025-03-16 17.34.22.excalidraw.md",
     "CG/Corpo Mole/Fast and Compact Partial Differential Equation (PDE).md",
     "CG/Corpo Mole/Vertex Block Descent (VBD).md",
@@ -213,9 +226,7 @@
     "CG/Corpo Mole/XPBD.md",
     "Excalidraw/Drawing 2024-06-13 08.02.35.excalidraw.md",
     "CG/Corpo Mole/PBD Constraint.md",
-    "CG/Corpo Mole/Position Based Dynamics.md",
     "CG/Corpo Mole/Pasted image 20250114073224.png",
-    "Visão/Coursera/Vision as a Copmutational Problem/Modulo1.md",
     "CG/Coursera/Interactive Computer graphics/Pasted image 20250210200831.png",
     "CG/InteractiveComputer/Pipeline Overview.canvas",
     "Corpo Mole/Pasted image 20250112133848.png",
