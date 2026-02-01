@@ -110,3 +110,6 @@ The lecture concludes with a puzzle to illustrate a fundamental theoretical chal
 ### **Next Step**
 
 The lecturer invites students to look forward to the next session, which will address the theoretical feasibility of learning despite the "unknown" nature of the target function.
+
+## My notes
+![[The Learning Problem.pdf]]

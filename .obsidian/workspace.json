@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Learning_Problem/Flashcards.md",
+                "file": "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Learning_Problem/AI-Resume.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flashcards"
+              "title": "AI-Resume"
             }
           }
         ]
@@ -179,12 +179,13 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ad6e28e47fb0069e",
+  "active": "4b44a812d7d1f93b",
   "lastOpenFiles": [
-    "Product Management/O'Reilly/Product Management Fundamentals The Who/Module 2.md",
+    "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Learning_Problem/The Learning Problem.pdf",
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Learning_Problem/Flashcards.md",
-    "CG/Books/Real-Time Volume Graphics/1. Theoretical Background.md",
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Learning_Problem/AI-Resume.md",
+    "Product Management/O'Reilly/Product Management Fundamentals The Who/Module 2.md",
+    "CG/Books/Real-Time Volume Graphics/1. Theoretical Background.md",
     "Excalidraw/Aliasing.excalidraw.md",
     "Excalidraw/9. Signal Processing.excalidraw.md",
     "CG/InteractiveComputer/2. Rendering algorithms.md",
@@ -218,7 +219,6 @@
     "Maratona/Problems/Check if Number is a Sum of Powers of Three.md",
     "Maratona/Problems/Sum of Three Problem.md",
     "Maratona/DP.md",
-    "CG/Coursera/Computational Vision/Module 2.md",
     "CG/Corpo Mole/Pasted image 20250114073224.png",
     "CG/Coursera/Interactive Computer graphics/Pasted image 20250210200831.png",
     "CG/InteractiveComputer/Pipeline Overview.canvas",
