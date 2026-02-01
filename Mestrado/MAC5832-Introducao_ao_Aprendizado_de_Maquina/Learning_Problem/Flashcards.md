@@ -33,7 +33,6 @@ In the formal learning diagram, what does the symbol **$f$** represent?
 In the formal learning diagram, what does the symbol **$g$** represent?
 ?
 **Back:**
-
 **The Final Hypothesis.** It is the formula produced by the learning algorithm that approximates the target function $f$.
 
 ---
