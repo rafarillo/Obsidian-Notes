@@ -11,12 +11,14 @@
             "id": "ad6e28e47fb0069e",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.9.14"
+                "file": "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Learning_Problem/Flashcards.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.14"
+              "icon": "lucide-file",
+              "title": "Flashcards"
             }
           }
         ]
@@ -51,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "#flashca",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -177,30 +179,34 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "243cb6131098cd1a",
+  "active": "ad6e28e47fb0069e",
   "lastOpenFiles": [
+    "Product Management/O'Reilly/Product Management Fundamentals The Who/Module 2.md",
+    "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Learning_Problem/Flashcards.md",
     "CG/Books/Real-Time Volume Graphics/1. Theoretical Background.md",
+    "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Learning_Problem/AI-Resume.md",
+    "Excalidraw/Aliasing.excalidraw.md",
+    "Excalidraw/9. Signal Processing.excalidraw.md",
+    "CG/InteractiveComputer/2. Rendering algorithms.md",
     "POSCOMP/Feedbacks.md",
+    "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Learning_Problem",
+    "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina",
+    "Mestrado",
     "POSCOMP",
     "CG/VolumeRendering",
     "Task.md",
-    "Product Management/O'Reilly/Product Management Fundamentals The Who/Module 2.md",
     "HandWrittenNotes/1. Theoretical Background.pdf",
     "CG/Books/Texture & Modeling/Pages.md",
     "CG/Books/Real-Time Volume Graphics",
     "CG/Books/Fundamentals Of Computer Graphics/9. Signal Processing.md",
     "HandWrittenNotes/9. Signal Processing.pdf",
     "CG/Books/Fundamentals Of Computer Graphics/Pasted image 20250326203827.png",
-    "Excalidraw/9. Signal Processing.excalidraw.md",
     "HandWrittenNotes/CG Fundamentals.pdf",
     "HandWrittenNotes",
-    "Nova pasta",
     "Excalidraw/Drawing 2025-04-01 20.15.56.excalidraw.md",
     "CG/Books/Fundamentals In CG/CHap9.md",
     "CG/Neural Volumetric Rendering/State of The Art for Volume Rendering.md",
     "Product Management/O'Reilly/Product Management Fundamentals The Who, What, and Why, and How/Module 1.md",
-    "Product Management/O'Reilly/Product Management Fundamentals The Who",
-    "Product Management/O'Reilly/Product Management Fundamentals The Who, What, and Why, and How",
     "CG/InteractiveComputer/26. Volume Rendering.md",
     "Architecture/Design Patterns/Level up your code with design patterns and SOLID/Scripts/Factory Pattern.md",
     "Architecture/Design Patterns/Level up your code with design patterns and SOLID/The SOLID principles.md",
@@ -213,10 +219,6 @@
     "Maratona/Problems/Sum of Three Problem.md",
     "Maratona/DP.md",
     "CG/Coursera/Computational Vision/Module 2.md",
-    "CG/Corpo Mole/State-of-the-art Improvements and Application of Position Based Dynamics.md",
-    "CG/Corpo Mole/Extreme Position Based Dynamics.md",
-    "CG/Corpo Mole/XPBD.md",
-    "Excalidraw/Drawing 2024-06-13 08.02.35.excalidraw.md",
     "CG/Corpo Mole/Pasted image 20250114073224.png",
     "CG/Coursera/Interactive Computer graphics/Pasted image 20250210200831.png",
     "CG/InteractiveComputer/Pipeline Overview.canvas",
