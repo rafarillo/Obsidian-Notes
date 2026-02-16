@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Learning_Problem/Flashcards.md",
+                "file": "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Flashcards"
+              "title": "Untitled"
             }
           }
         ],
@@ -194,13 +194,16 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "4b44a812d7d1f93b",
+  "active": "6d6e886859390a35",
   "lastOpenFiles": [
+    "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/Untitled.md",
+    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Untitled.md",
+    "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Learning_Problem/Flashcards.md",
+    "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/MAC5768-Code",
     "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens",
     "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos",
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Learning_Problem/AI-Resume.md",
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Learning_Problem/The Learning Problem.pdf",
-    "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Learning_Problem/Flashcards.md",
     "Product Management/O'Reilly/Product Management Fundamentals The Who/Module 2.md",
     "CG/Books/Real-Time Volume Graphics/1. Theoretical Background.md",
     "Excalidraw/Aliasing.excalidraw.md",
@@ -215,9 +218,7 @@
     "Task.md",
     "HandWrittenNotes/1. Theoretical Background.pdf",
     "CG/Books/Texture & Modeling/Pages.md",
-    "CG/Books/Real-Time Volume Graphics",
     "CG/Books/Fundamentals Of Computer Graphics/9. Signal Processing.md",
-    "HandWrittenNotes/9. Signal Processing.pdf",
     "CG/Books/Fundamentals Of Computer Graphics/Pasted image 20250326203827.png",
     "Excalidraw/Drawing 2025-04-01 20.15.56.excalidraw.md",
     "CG/Books/Fundamentals In CG/CHap9.md",
@@ -233,7 +234,6 @@
     "CG/Corpo Mole/Vertex Block Descent (VBD).md",
     "Maratona/Problems/Check if Number is a Sum of Powers of Three.md",
     "Maratona/Problems/Sum of Three Problem.md",
-    "Maratona/DP.md",
     "CG/Corpo Mole/Pasted image 20250114073224.png",
     "CG/Coursera/Interactive Computer graphics/Pasted image 20250210200831.png",
     "CG/InteractiveComputer/Pipeline Overview.canvas",
