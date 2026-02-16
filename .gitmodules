@@ -4,3 +4,6 @@
 [submodule "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/MAC5770-Code"]
 	path = Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/MAC5770-Code
 	url = git@github.com:rafarillo/MAC5770-Code.git
+[submodule "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/MAC5832-Code"]
+	path = Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/MAC5832-Code
+	url = git@github.com:rafarillo/MAC5832-Code.git
