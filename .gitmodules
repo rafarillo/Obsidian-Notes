@@ -1,3 +1,6 @@
 [submodule "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/MAC5768-Code"]
 	path = Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/MAC5768-Code
 	url = git@github.com:rafarillo/MAC5768-Code.git
+[submodule "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/MAC5770-Code"]
+	path = Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/MAC5770-Code
+	url = git@github.com:rafarillo/MAC5770-Code.git
