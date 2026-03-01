@@ -71,3 +71,6 @@ The **degree** of a vertex $v$, denoted as $d(v)$, is the number of edges incide
 - **Cycle Graph ($C_n$):** A graph consisting of a single closed circuit of $n$ vertices.
     
 - **Infinite Graphs:** While the text focuses on finite graphs, it notes the existence of infinite paths and grids.
+
+
+![[Aula1.pdf]]
