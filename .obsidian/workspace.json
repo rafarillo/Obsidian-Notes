@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/CH1- Conceitos e Resultados Basicos/Intro.md",
+                "file": "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/CH2 - Digital Image Fundamentasls/Chapter Summary.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Intro"
+              "title": "Chapter Summary"
             }
           },
           {
@@ -222,9 +222,13 @@
   },
   "active": "903f1121d8ad2faf",
   "lastOpenFiles": [
-    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/CH1- Conceitos e Resultados Basicos/Aula1.pdf",
-    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/CH1- Conceitos e Resultados Basicos/Intro.md",
+    "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/CH2 - Digital Image Fundamentasls/CH2-Notas.pdf",
+    "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/CH2 - Digital Image Fundamentasls/Flashcards.md",
     "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/CH1 - Introduction/Flashcards.md",
+    "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/CH2 - Digital Image Fundamentasls/Chapter Summary.md",
+    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/CH1- Conceitos e Resultados Basicos/Intro.md",
+    "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/CH2 - Digital Image Fundamentasls",
+    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/CH1- Conceitos e Resultados Basicos/Aula1.pdf",
     "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/CH1- Conceitos e Resultados Basicos/Flashcards.md",
     "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/CH1 - Introduction/Introduction.md",
     "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/CH1- Conceitos e Resultados Basicos",
@@ -240,8 +244,6 @@
     "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/MAC5832-Code/README.md",
     "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/MAC5832-Code/LICENSE",
     "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/MAC5832-Code",
-    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/MAC5770-Code/LICENSE",
-    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/MAC5770-Code",
     "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Untitled.md",
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Learning_Problem/AI-Resume.md",
     "Product Management/O'Reilly/Product Management Fundamentals The Who/Module 2.md",
@@ -256,8 +258,6 @@
     "CG/Books/Fundamentals Of Computer Graphics/Pasted image 20250326203827.png",
     "Excalidraw/Drawing 2025-04-01 20.15.56.excalidraw.md",
     "CG/Books/Fundamentals In CG/CHap9.md",
-    "CG/Neural Volumetric Rendering/State of The Art for Volume Rendering.md",
-    "Product Management/O'Reilly/Product Management Fundamentals The Who, What, and Why, and How/Module 1.md",
     "CG/Neural Volumetric Rendering/Pasted image 20250318210747.png",
     "CG/Corpo Mole/Pasted image 20250114073224.png",
     "CG/Coursera/Interactive Computer graphics/Pasted image 20250210200831.png",
