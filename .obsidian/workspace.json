@@ -11,11 +11,13 @@
             "id": "a65eff45f426bba4",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula1/Aula1.pdf"
+                "file": "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula1/Aula1.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
+              "icon": "lucide-file",
               "title": "Aula1"
             }
           }
@@ -179,13 +181,14 @@
   },
   "active": "a65eff45f426bba4",
   "lastOpenFiles": [
-    "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula1/Aula1.md",
+    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Listas/Lista1.pdf",
+    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/CH1- Conceitos e Resultados Basicos/Intro.md",
+    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/CH1- Conceitos e Resultados Basicos/Flashcards.md",
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula1/Aula1.pdf",
+    "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula1/Aula1.md",
     "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/CH2 - Digital Image Fundamentasls/Flashcards.md",
     "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/CH1 - Introduction/Flashcards.md",
     "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/CH1 - Introduction/Introduction.md",
-    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Listas/Lista1.pdf",
-    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/CH1- Conceitos e Resultados Basicos/Intro.md",
     "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Listas/Unconfirmed 757603.crdownload",
     "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Listas",
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Learning_Problem/AI-Resume.md",
@@ -196,7 +199,6 @@
     "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/CH2 - Digital Image Fundamentasls/CH2-Notas.pdf",
     "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/CH2 - Digital Image Fundamentasls",
     "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/CH1- Conceitos e Resultados Basicos/Aula1.pdf",
-    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/CH1- Conceitos e Resultados Basicos/Flashcards.md",
     "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/CH1- Conceitos e Resultados Basicos",
     "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/Untitled.md",
     "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/MAC5770-Code/README.md",
