@@ -1,0 +1,1 @@
+![[Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula1/Aula1.pdf|Aula1]]
