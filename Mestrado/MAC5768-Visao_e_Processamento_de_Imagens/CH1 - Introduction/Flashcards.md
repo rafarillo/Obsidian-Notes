@@ -14,7 +14,6 @@
 ?
 **A:** Human vision is limited to the visible band, whereas imaging machines can cover almost the entire EM spectrum (from gamma to radio waves) and use other sources like ultrasound.
 ![Electromagnetic spectrum, gerada com IA](https://encrypted-tbn3.gstatic.com/licensed-image?q=tbn:ANd9GcTqe0RaapdTHUgBwFvH7bmT4e3Bic-s8hM0SDydBTXSOyB6LHoMtf9JKSjdCP3APrAyhuS_vGDLzpbPm2fMDlBZt7hpvpXmPFYs8aoeHyFnWLrV32A)
-<!--SR:!2026-03-01,3,250-->
 
 
 ### **Section 2: The Scope of the Field**
