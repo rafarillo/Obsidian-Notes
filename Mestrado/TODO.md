@@ -1,4 +1,11 @@
-- [ ] Lista 1 grafinhos
-- [ ] Anotações de ML
-	- [ ] Implementar ultimo algoritmo visto em ML
+- [ ] Grafinhos
+	- [ ] Resolver lista1
+	- [ ] Resolver exercicios nas notas de aula
+- [ ] Machine Learning
+	- [ ] Completar anotações de ML com contas e deduções
+	- [ ] Implementar algoritmos visto em sala de aula
+	- [ ] Adicionar notas de aula no folder Aula2
 - [ ] Visão computacional
+	- [ ] Adicionar anotações flashcards e resumo para aula 3
+	- [ ] Adicionar anotações flashcards e resumo para aula 4
+	- [ ] Implementar algoritmos visto em sala de aula de union find
