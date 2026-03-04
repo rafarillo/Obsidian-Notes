@@ -73,4 +73,4 @@ The **degree** of a vertex $v$, denoted as $d(v)$, is the number of edges incide
 - **Infinite Graphs:** While the text focuses on finite graphs, it notes the existence of infinite paths and grids.
 
 
-![[Aula1.pdf]]
+![[Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Aula1/Aula1.pdf]]

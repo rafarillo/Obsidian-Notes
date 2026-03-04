@@ -1,4 +1,4 @@
-#flashcards/MAC5770/CH1-Conceitos_e_Resultados
+#flashcards/MAC5770/Aula1
 
 
 ## 🎴 Fundamentals of Graph Theory

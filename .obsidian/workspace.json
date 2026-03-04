@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula1/Aula1.md",
+                "file": "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Aula2/Aula2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aula1"
+              "title": "Aula2"
             }
           }
         ]
@@ -181,11 +181,17 @@
   },
   "active": "a65eff45f426bba4",
   "lastOpenFiles": [
+    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Aula2/Aula2.pdf",
+    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Aula2/Aula2.md",
+    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Aula2/Flashcards.md",
+    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Aula1/Flashcards.md",
+    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Aula1/Aula1.pdf",
     "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Listas/Lista1.pdf",
-    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/CH1- Conceitos e Resultados Basicos/Intro.md",
-    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/CH1- Conceitos e Resultados Basicos/Flashcards.md",
-    "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula1/Aula1.pdf",
+    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Aula1/Intro.md",
+    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Aula2",
+    "Mestrado/TODO.md",
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula1/Aula1.md",
+    "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula1/Aula1.pdf",
     "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/CH2 - Digital Image Fundamentasls/Flashcards.md",
     "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/CH1 - Introduction/Flashcards.md",
     "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/CH1 - Introduction/Introduction.md",
@@ -197,9 +203,6 @@
     "Assignment 4_ Empty and Interactive Cards/Assignment 4_ Print & Play B&W No Character- Game Design Thinking.pdf",
     "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/CH2 - Digital Image Fundamentasls/Chapter Summary.md",
     "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/CH2 - Digital Image Fundamentasls/CH2-Notas.pdf",
-    "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/CH2 - Digital Image Fundamentasls",
-    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/CH1- Conceitos e Resultados Basicos/Aula1.pdf",
-    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/CH1- Conceitos e Resultados Basicos",
     "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/Untitled.md",
     "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/MAC5770-Code/README.md",
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/MAC5832-Code/README.md",
@@ -213,10 +216,7 @@
     "CG/InteractiveComputer/2. Rendering algorithms.md",
     "POSCOMP/Feedbacks.md",
     "Task.md",
-    "CG/Books/Texture & Modeling/Pages.md",
-    "CG/Books/Fundamentals Of Computer Graphics/9. Signal Processing.md",
     "CG/Books/Fundamentals Of Computer Graphics/Pasted image 20250326203827.png",
-    "Excalidraw/Drawing 2025-04-01 20.15.56.excalidraw.md",
     "CG/Neural Volumetric Rendering/Pasted image 20250318210747.png",
     "CG/Corpo Mole/Pasted image 20250114073224.png",
     "CG/Coursera/Interactive Computer graphics/Pasted image 20250210200831.png",

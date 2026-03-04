@@ -1,0 +1,4 @@
+- [ ] Lista 1 grafinhos
+- [ ] Anotações de ML
+	- [ ] Implementar ultimo algoritmo visto em ML
+- [ ] Visão computacional
