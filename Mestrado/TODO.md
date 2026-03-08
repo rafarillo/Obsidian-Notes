@@ -2,7 +2,7 @@
 	- [ ] Resolver lista1
 	- [ ] Resolver exercicios nas notas de aula
 - [ ] Machine Learning
-	- [ ] Completar anotações de ML com contas e deduções
+	- [x] Completar anotações de ML com contas e deduções
 	- [ ] Implementar algoritmos visto em sala de aula
 	- [ ] Adicionar notas de aula no folder Aula2
 - [ ] Visão computacional
