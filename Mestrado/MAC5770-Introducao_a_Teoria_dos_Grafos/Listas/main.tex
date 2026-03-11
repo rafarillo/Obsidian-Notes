@@ -134,4 +134,33 @@ dois grafos \textit{disjuntos} nas arestas $G_1$ e $G_2$, tais que $G_1$ é ací
 e $G_2$ é um grafo par (todos os graus são par).
 \subsection*{Resolução}
 
+\textit{\underline{Demonstração}:}
+
+Vamos provar essa proposição através de um algoritmo iterativo
+
+\textbf{Inicialização:} Seja $G_1 = (V(G), E(G))$ e $G_2 = (V(G), \emptyset)$
+
+\textbf{Iteração:} Enquanto $G_1$ contiver um ciclo $C$ remova as arestas
+de $C$ em $G_1$ e adicione-as em $G_2$
+
+\textbf{Término:} Como $G$ tem um número finito de arestas, esse processo
+términa quando $G_1$ nao contiver mais nenhum ciclo
+
+\bigskip
+
+Ao final do algoritmo como $G_1$ não possui ciclos, pois todos foram 
+removidos, logo $G_1$ se torna acíclico.
+
+$G_1$ e $G_2$ são disjuntos, pois $G_2$ foi formado a partir das arestas
+removidas de $G_1$
+
+$C$ é par pois cada vértice tem exatamente duas arestas incidentes. Logo,
+em cada iteração um número par de arestas é adicionado \textbf{em cada vértice}
+de $G_2$. Como $G_2$ é par no início, e em cada iteração um número par
+de arestas é adicionado em cada vértice. Portanto, $G_2$ é par no término
+do algoritmo.
+
+
+
+
 \end{document}
