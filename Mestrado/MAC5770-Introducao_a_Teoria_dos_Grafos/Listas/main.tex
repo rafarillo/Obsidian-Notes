@@ -4,20 +4,134 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[brazil]{babel}
+\usepackage{amsmath}
+\usepackage[dvipsnames]{xcolor}
 
-\title{Meu Primeiro Documento no Arch}
-\author{Seu Nome}
+\title{Lista 1}
+\author{Rafael Vieira de Carvalho \\ NUSP: 10723990}
 \date{\today}
 
 \begin{document}
 
 \maketitle
 
-\section{Introdução}
-Olá, mundo! Este é o meu primeiro teste usando o VS Code e Arch Linux. 
+\section*{Exercício 02)}
+Se $G$ é um grafo simples, é possível que ambos $G$ e $\overline{G}$ sejam desconexos?
+Justifique
 
-\subsection{Matemática}
-A fórmula da energia de Einstein é muito simples:
-$$ E = mc^2 $$
+\subsection*{Resolução}
+
+\textbf{Resposta:} É impossível, pelo menos ums dele será conexo
+
+\smallskip
+
+\textit{\underline{Demonstração}:}
+
+\bigskip
+
+Se $\overline{G}$ é complemento de $G$. Logo,
+
+$$E(\overline{G}) = \binom{V}{2} - E(G)$$
+
+Sem perda de generalidade, suponha que G seja desconexo. Vamos mostrar 
+que $\overline{G}$ é conexo.
+
+Se $G$ é \textit{desconexo} então, por definição, existem vértices
+$u$ e $v$ tal que é impossível criar um caminho de $u$ até $v$.
+Logo $uv \notin E(G)$. Como $\overline{G}$ é o complemento, então 
+$uv \in E(\overline{G})$. Logo, existe caminho entre $u$ e $v$ em 
+$\overline{G}$
+
+Mostramos tudo que não tem caminho em $G$ possuí caminho em $\overline{G}$.
+Agora precisamos demonstrar que tudo que tem caminho em $G$, possuí caminho
+em $\overline{G}$.
+
+Suponha que exista um caminho $P = (u, \hdots , v)$ em $G$. Vamos mostrar
+que existe $P^{'} = (u, \hdots , v)$ em $\overline{G}$.
+
+Seja $w$ um vértice em de $G$ em que $uw \notin E(G)$ e $wv \notin E(G)$.
+Por definição $uw \in E(\overline{G})$ e $vw \in E(\overline{G})$. Portanto
+$P^{'} = (u, v, w)$ 
+
+
+
+\newpage
+
+
+\section*{Exercício 06)}
+
+Um grafo $G$ é auto-complementar se for isomorfo a $\overline{G}$. É possível que um grafo 
+\textit{auto-complementar} de ordem 100 tenha exatamente um vértice de grau 50? Justifique.
+
+\textbf{Resposta:} É impossível
+
+\smallskip
+
+\textit{\underline{Demonstração}:}
+
+\bigskip
+
+Como o grafo é \textit{isomorfo} vale que
+
+\begin{equation}
+    d_{G}(v) = d_{\overline{G}}(f(v)) \qquad \text{$\forall v \in V(G)$}
+\end{equation}
+
+Para um grafo \textit{complementar} vale:
+\begin{equation}
+    d_{G} (u) + d_{\overline{G}}(u) = n-1 \qquad \text{$\forall u \in V(G)$}
+\end{equation}
+
+
+Seja $x$ o vértice de grau 50 em $G$. Utilizando a equação (2)
+$$d_{\overline{G}}(f(x)) = 99 - 50 = 49$$
+
+Se $G$ possuí exatamente um vértice de grau 50, por \textit{isomorfismo}
+$\overline{G}$ também também precisa possuir exatamente um. Por
+\textit{isomorfismo} também, como $\overline{G}$ possui um exatamente um
+vértice de grau 50, então $G$ possui também um vértice $y \in V(G)$ tal que
+$d_{G}(y)= 49$
+
+Pelo grafo ser \textit{auto-complementar}, $x$ deve ser mapeado no único
+vértice de grau 50 em $\overline{G}$. Logo $$x = f(y)$$
+
+Da mesma forma, o único vértice com grau 49 também deve ser mapeado.
+$$y = f(x)$$
+
+Vamos analisar a adjacência dos vértices $x$ e $y$.
+
+{\color{ForestGreen} Caso 1:} $x$ e $y$ adjacentes em $G$.
+
+Pelo isomorfismo 
+
+\begin{align*}
+    xy \in E(G) & \iff f(x)f(y) \in \overline{G} \\
+                & \iff yx \in \overline{G}
+\end{align*}
+
+Isso é uma contradição, pois se $xy \in E(G)$ então pela definição de
+grafo complementar $xy \notin E(\overline{G})$
+
+{\color{ForestGreen} Caso 2:} $x$ e $y$ não são adjacentes em $G$.
+
+Por \textit{isomorfismo}
+
+\begin{align*}
+    xy \notin E(G) & \iff f(x)f(y) \notin E(\overline{G}) \\
+                   & \iff yx \notin E(\overline{G})     
+\end{align*}
+
+Isso é uma contradição, se $xy \notin E(G)$ então $xy \in E(\overline{G})$
+pela definição de grafo complementar.
+
+Como chegou-se em uma contradição, a hipótese de existir apenas um vértice
+de grau 50 em $G$ é falsa.
+\newpage
+
+\section*{Exercício 09)}
+Prove que todo grafo simples $G$ pode ser representado como a união de 
+dois grafos \textit{disjuntos} nas arestas $G_1$ e $G_2$, tais que $G_1$ é acíclico (sem circuitos) 
+e $G_2$ é um grafo par (todos os graus são par).
+\subsection*{Resolução}
 
 \end{document}
