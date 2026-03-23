@@ -35,31 +35,25 @@ for ((i = 1; i <= maxNumber; i++)); do
     folder_name="Aula$i"
     folder_path="$path/$folder_name"
     
-    # Create folder if it doesn't exist
-    if [ ! -d "$folder_path" ]; then
-        mkdir -p "$folder_path"
-        echo "✓ Created folder: $folder_path"
-    else
-        echo "→ Folder already exists: $folder_path"
+    # If folder exists, skip to next iteration
+    if [ -d "$folder_path" ]; then
+        echo "→ Folder already exists: $folder_path (skipping)"
+        continue
     fi
+    
+    # Create folder
+    mkdir -p "$folder_path"
+    echo "✓ Created folder: $folder_path"
     
     # Create FlashCards.md
     flashcards_file="$folder_path/FlashCards.md"
-    if [ ! -f "$flashcards_file" ]; then
-        echo "#flashcards/$discipline/$folder_name" > "$flashcards_file"
-        echo "  ✓ Created: FlashCards.md"
-    else
-        echo "  → FlashCards.md already exists"
-    fi
+    echo "#flashcards/$discipline/$folder_name" > "$flashcards_file"
+    echo "  ✓ Created: FlashCards.md"
     
     # Create Resumo.md
     resumo_file="$folder_path/Resumo.md"
-    if [ ! -f "$resumo_file" ]; then
-        touch "$resumo_file"
-        echo "  ✓ Created: Resumo.md"
-    else
-        echo "  → Resumo.md already exists"
-    fi
+    touch "$resumo_file"
+    echo "  ✓ Created: Resumo.md"
 done
 
 echo "---"
