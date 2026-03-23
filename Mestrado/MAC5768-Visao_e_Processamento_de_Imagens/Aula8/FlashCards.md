@@ -14,7 +14,7 @@ A: Global processing often fails to enhance details in small areas because those
 
 Q: In the context of image statistics, what do the mean and variance represent?
 ?
-A: The mean is a measure of average intensity, and the variance (or standard deviation) is a measure of image contrast.
+PyGuiA: The mean is a measure of average intensity, and the variance (or standard deviation) is a measure of image contrast.
 
 Q: What defines a "linear" spatial filter?
 ?

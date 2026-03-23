@@ -1,0 +1,123 @@
+% Modelo de LaTeX para as listas de MAC0320/5771.
+%
+% Podem utiliza-lo como base para a solução de vocês, fazendo as alterações
+% necessárias.
+
+\documentclass[11pt]{amsart}
+
+% Muitos pacotes úteis (nem todos são utilizados aqui)
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazilian]{babel}
+\usepackage{calc}
+\usepackage{xargs}
+\usepackage{ifthen}
+\usepackage{xspace}
+\usepackage{xkeyval}
+\usepackage{blindtext}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{cleveref}
+\usepackage{setspace}
+\usepackage{csquotes}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tcolorbox}
+\usepackage{url}
+\usepackage{tikz}
+
+% Definindo algumas coisas importantes
+\theoremstyle{plain}
+\newtheorem{theorem}{Teorema}
+\theoremstyle{definition}
+\newtheorem{exercise}{Exercício}
+
+% Informações básicas
+\title{Lista 2 - MAC0320/MAC5770 - Árvores e Grafos Eulerianos}
+\author{Fábio Botler \and Bruno Akamine}
+
+\begin{document}
+
+\maketitle
+
+\begin{center}
+  \begin{tcolorbox}[width=0.65\textwidth,colframe=red,colback=red!20]
+    \textsc{Entrega até o dia 16/4 às 23:59 os seguintes exercícios: 2, 3, 4, 7, 9}
+  \end{tcolorbox}
+\end{center}
+
+\vspace{1cm}
+
+\textbf{Orientações (caso não sejam cumpridas, poderá haver desconto de nota):}
+\begin{enumerate}
+  \item Resolva um exercício por página.
+  \item Entregue apenas os exercícios solicitados.
+  \item A lista deve estar legível.
+  \item Envie um único arquivo PDF. O nome do arquivo deve seguir o formato NUSP.pdf.
+  \item Cada aluno tem um crédito de atraso de 7 dias. Isso é, a soma total dos
+    atrasos de todas as listas não deve ultrapassar 7 dias. Listas entregues
+    após o prazo não serão aceitas caso o aluno já tenha extrapolado os créditos
+\end{enumerate}
+\textbf{Sugestão:} use o chatGPT para passar a solução de cada exercício para \LaTeX, mas não esqueça de verificar o trabalho feito por ele.
+
+\vspace{5mm}
+
+\begin{exercise}
+  Prove que se $G$ é uma árvore tal que $\Delta(G) \ge k$, então $G$ tem pelo
+  menos $k$ folhas.
+\end{exercise}
+
+\begin{exercise}
+  Prove que todo grafo conexo $G$, simples e não-trivial, tem uma árvore
+  geradora $T$, tal que $G-E(T)$ é desconexo.
+\end{exercise}
+
+\begin{exercise}
+  Seja $G$ um grafo conexo, $T_{1}, T_{2}$ árvores geradoras distintas de $G$, e
+  seja, $e_{1}$ uma aresta de $T_{1}$.
+  Prove que existe uma aresta $e_{2}$ em $T_{2}$ tal que $T_{1} - e_{1} +
+  e_{2}$ é uma árvore geradora de $G$.
+\end{exercise}
+
+\begin{exercise}
+  Uma \textit{$k$-coloração} dos vértices de um grafo é uma atribuição de no máximo $k$
+  cores distintas aos vértices desse grafo, tal que vértices adjacentes recebem
+  cores distintas. Dizemos que um grafo é \textit{equi-bicolorido} se tem uma
+  $2$-coloração com igual número de vértices de cada cor.
+  Prove que toda árvore equi-bicolorida tem pelo menos uma folha de cada cor.
+\end{exercise}
+
+\begin{exercise}
+  De uma segunda prova para o exercício anterior.
+\end{exercise}
+
+\begin{exercise}
+  Seja $\mathcal{F}(T)$ o número de folhas de uma árvore $T$ e seja $S \subset
+  V(T)$ o conjunto dos vértices com grau no mínimo 3. Mostre que se $T$
+  é uma árvore não-trivial, então \[
+    \mathcal{F}(T) = 2 + \sum_{v \in S} \left( d(v) - 2 \right)
+  .\]
+\end{exercise}
+
+\begin{exercise}
+  Prove que um grafo conexo $G$ é euleriano se, e só se, $G$ contém ciclos
+  $C_{1},C_{2},\ldots,C_{k}$ dois a dois disjuntos nas arestas tais que $E(G) =
+  E(C_{1}) \cup E(C_{2}) \cup \cdots \cup E(C_{k})$.
+\end{exercise}
+
+\begin{exercise}
+  Prove que se $G$ é um grafo conexo tal que cada uma das suas arestas pertence
+  a um número ímpar de ciclos, então $G$ é euleriano.
+\end{exercise}
+
+\begin{exercise}
+    Seja $G$ um grafo conexo e seja $S\subset V(G)$ um conjunto e vértices tal que $|S|\geq 2$. Prove que se $N_G(v)\setminus S\neq \emptyset$, para cada $v\in S$ e $G[V(G)\setminus S]$ é conexo, então $G$ tem uma árvore $T$ tal que o conjunto de folhas de $T$ é exatamente $S$.
+\end{exercise}
+\end{document}
