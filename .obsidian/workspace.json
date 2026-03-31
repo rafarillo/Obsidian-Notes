@@ -25,14 +25,12 @@
             "id": "99b51a0e8bf9b4e4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/Aula8/FlashCards.md",
-                "mode": "source",
-                "source": false
+                "file": "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Listas/Lista2/Lista2.pdf"
               },
-              "icon": "lucide-file",
-              "title": "FlashCards"
+              "icon": "lucide-file-text",
+              "title": "Lista2"
             }
           }
         ],
@@ -196,8 +194,10 @@
   },
   "active": "99b51a0e8bf9b4e4",
   "lastOpenFiles": [
-    "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/Aula7/FlashCards.md",
+    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Listas/Lista2/lista2.pdf",
+    "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Listas/Lista2/Lista2.pdf",
     "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/Aula8/FlashCards.md",
+    "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/Aula7/FlashCards.md",
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula6/FlashCards.md",
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula6/Resumo.md",
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula5/Resumo.md",
@@ -227,11 +227,9 @@
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula26",
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula25/Resumo.md",
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula25/FlashCards.md",
-    "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula25",
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula24/Resumo.md",
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula24/FlashCards.md",
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula23/Resumo.md",
-    "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula23/FlashCards.md",
     "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/MAC5768-Code/union-find/Lichtenstein_img_processing_test.png",
     "CG/Books/Fundamentals Of Computer Graphics/Pasted image 20250326203827.png",
     "CG/Neural Volumetric Rendering/Pasted image 20250318210747.png",
