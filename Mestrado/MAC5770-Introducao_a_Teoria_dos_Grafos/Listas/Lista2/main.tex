@@ -1,0 +1,234 @@
+\documentclass[12pt, a4paper]{article}
+
+% Pacotes para português do Brasil
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{amsmath}
+\usepackage[dvipsnames]{xcolor}
+
+\newtheorem{exercise}{Exercício}
+\newtheorem{theorem}{Teorema}
+
+
+\title{Lista 2}
+\author{Rafael Vieira de Carvalho \\ NUSP: 10723990}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\textbf{Exercício 02)} Prove que todo grafo conexo $G$, simples e não-trivial, tem uma árvore
+  geradora $T$, tal que $G-E(T)$ é desconexo.
+
+  \vspace{0.5cm}
+  \textit{\underline{Demonstração}}
+
+    Seja $H = G - E(T)$. Seja $v \in V(G)$ e seja $E_v$ o conjunto de todas as
+    arestas incidentes a $v$ em $G$. Como $G$ é simples, as aresta de $E_v$
+    não formam ciclos. Portanto, podemos contrur uma árvore geradora $T$ que
+    contenha todas as arestas $E_v$. Por conta dessa construção, garantimos
+    que todas as conexões de $v$ em $G$ estão em $T$, ou seja, $d_G(v) = d_T(v)$.
+    Logo $d_H(v) = d_G(v) - d_T(v) = 0$, logo $v$ é um vértice isolado em $H$, 
+    ou seja, $H$ é desconexo.
+  \vspace{1cm}
+
+\textbf{Exercício 03)} Seja $G$ um grafo conexo, $T_{1}, T_{2}$ árvores geradoras distintas de $G$, e
+  seja, $e_{1}$ uma aresta de $T_{1}$.
+  Prove que existe uma aresta $e_{2}$ em $T_{2}$ tal que $T_{1} - e_{1} +
+  e_{2}$ é uma árvore geradora de $G$.
+
+  \vspace{0.5cm}
+  \textit{\underline{Demonstração}}
+    
+  Seja $T_3 = T_1 -e_1 + e_2$
+  
+  \textbf{Caso1:} Suponha que $e_1 \in T_2$ nesse caso basta escolhermos
+  $e_2 = e_1$ e trivialmente a árvore $T_3 = T_1$. Portanto, $T_3$ é arvore
+  geradora de $G$
+
+  \textbf{Caso2:} Seja $e_1 = uv$ e suponha que $e_1 \notin T_2$. 
+  Como $e_1$ é uma ponte, pois $T_1$ é uma arvore e todas suas arestas
+  são pontes. Ao remover $e_1$ de $T_1$ duas componentes $T_1^{'}$ e 
+  $T_1^{''}$ são criadas, onde $u \in T_1^{'}$ e $v \in T_1^{''}$.
+  Como $T_2$ é uma árvore, então existe um caminho em $T_2$ que conecta
+  o vértice $u$ ao vértice $v$, mais precisamente, existe ao menos uma aresta
+  que conecta as componentes $T_1^{'}$ com a componente $T_1^{''}$.
+  Escolha uma dessas arestas e chame-a de $e_2$.
+
+  Perceba:
+  \begin{itemize}
+    \item $T_1 - e_1$ - cria duas componentes conexas. Ambas componentes
+não possuem ciclos.
+    \item $T_1 - e_1 + e_2$ conecta novamente as duas componentes. Como
+ambas componentes não possuiam ciclos então $T_3$ também não possui 
+  \end{itemize}
+
+  Portanto, $T_3$ é uma árvore geradora em $G$
+  \vspace{1cm}
+
+\textbf{Exercício 04)} Uma \textit{$k$-coloração} dos vértices de um grafo é uma atribuição de no máximo $k$
+  cores distintas aos vértices desse grafo, tal que vértices adjacentes recebem
+  cores distintas. Dizemos que um grafo é \textit{equi-bicolorido} se tem uma
+  $2$-coloração com igual número de vértices de cada cor.
+  Prove que toda árvore equi-bicolorida tem pelo menos uma folha de cada cor.
+
+  \vspace{0.5cm}
+  \textit{\underline{Demonstração}}
+  Seja $T$ uma árvore equi-bicolorida com cores azul e verde. Suponha
+  por contradição que $T$ não possua pelo menos uma folha de cada cor.
+  Logo, todas as folhas são da mesma cor. Sem perda de generalidade, suponha
+  que todas as folhas sejam verdes. Logo 
+  $$d_T(v_{\text{azul}}) \ge 2$$
+
+  Portanto
+  $$\sum_{v \in T_{\text{azul}}}d_{T_{\text{azul}}}(v) \ge 2 .\frac{n}{2}$$
+  $$\sum_{v \in T_{\text{azul}}}d_{T_{\text{azul}}}(v) \ge n$$
+
+  Como $T$ é equi-bicolorido, toda aresta conecta um vértice azul com um verde.
+  Portanto, a soma dos graus dos vértices de uma cor deve ser exatamente igual
+  ao número de arestas no grafo. Seja $m$ o número de arestas. Portanto
+  $$m \ge n$$
+
+  Sabemos também que $T$ é uma árvore, logo o número de arestas é exatamente
+  $n-1$.
+
+  $$m=n-1 \implies n-1 \ge n \implies -1 \ge 0$$
+  Isso é uma contradição, portanto $T$ tem ao menos uma folha azul.
+  \vspace{1cm}
+
+\textbf{Exercício 07)} Prove que um grafo conexo $G$ é euleriano se, e só se, $G$ contém ciclos
+  $C_{1},C_{2},\ldots,C_{k}$ dois a dois disjuntos nas arestas tais que $E(G) =
+  E(C_{1}) \cup E(C_{2}) \cup \cdots \cup E(C_{k})$.
+
+  \vspace{0.5cm}
+  \textit{\underline{Demonstração}}
+
+  Para essa demonstração usaremos o seguinte teorema
+
+  \begin{theorem}
+    Um grafo $G$ é eureliano se e somente se todos os vértice de $G$ tem
+    grau par
+  \end{theorem}
+
+  $(\Leftarrow)$ Seja $x \in V(G)$. Como $C_1,\ \hdots \ , C_k$ sao disjuntos
+  nas arestas, $x \in V(C_i) \ \forall i = 1,\ \hdots,\ k$. Como $x$ está
+  presente em todos os ciclos $C_i$, logo o grau de x é:
+  $$d_{C_i}(x) = 2\ \ \forall i = 1,\ \hdots,\ k$$
+
+  Portanto, o grau de $x$ em $G$ é da forma
+  $$d_G(x) = 2k$$
+
+  Portanto, todos os vértices de $G$ possuem grau par. Logo, $G$ é eureliano.
+  
+  $(\Rightarrow)$ Seja $m$ o número de arestas em $G$. Vamos provar por indução
+  no número de arestas.
+
+  \textbf{Base:}
+  Valido para $K_3$, onde temos $C_1 = K_3$ e $C_i = \emptyset \  \forall i=1, \ \hdots, \ k$ 
+  
+  \textbf{Hipótese de indução:} Tome $m > 3$, e suponha que $G$ pode ser
+  escrita como união de ciclos $E(G) =
+  E(C_{1}) \cup E(C_{2}) \cup \cdots \cup E(C_{k})$ para $x < m$
+  
+  \textbf{Passo:} Tome $G$ eureliano com $m$ arestas. Se $G$ é eureliano,
+  então $G$ tem pelo menos um ciclo, poís todos os vértices possuem grau
+  par. Seja $C_1^{'}$ tal ciclo. Seja $G^{'}$ um grafo obtido a partir da remoção
+  do ciclo $C_1^{'}$ de $G$
+
+  $$E(G^{'}) = E(G) \backslash E(C^{'})$$
+
+  O número de arestas em $G^{'}$ é $m-|E(C_1^{'})|$, e esse número é par, poís
+  $m$ é par e $|E(C_1^{'})|$ também é par. Além disso, 
+  $\forall y \in V(G^{'})\ d_{G^{'}}(x) \equiv 0 \text{mod 2}$, pois retirou-se
+  um número par de arestas de cada vértice de $G^{'}$. Logo, pelo \textit{Teorema 1},
+  $G^{'}$ também é eureliano.
+
+  Como $|E(G^{'})| < m$, pela hipótese de indução
+  $$E(G^{'}) = E(C_{1}) \cup E(C_{2}) \cup \cdots \cup E(C_{k})$$
+
+  Portanto 
+
+  \begin{align}
+    E(G) &= E(G^{'}) \cup E(C_1^{'}) \\
+         &= E(G^{'}) = E(C_{1}) \cup E(C_{2}) \cup \cdots \cup E(C_{k}) \cup E(C_1^{'})
+  \end{align}
+
+
+  \vspace{1cm}
+
+\textbf{Exercício 09)} Seja $G$ um grafo conexo e seja $S\subset V(G)$ um conjunto e vértices tal que $|S|\geq 2$. Prove que se $N_G(v)\setminus S\neq \emptyset$, para cada $v\in S$ e $G[V(G)\setminus S]$ é conexo, então $G$ tem uma árvore $T$ tal que o conjunto de folhas de $T$ é exatamente $S$.
+
+  \vspace{0.5cm}
+  \textit{\underline{Demonstração}}
+
+  Seja $H = G[V(G)\backslash S]$. Se $N_G(v)\backslash S \ne \emptyset$, então todo vértice
+  em $S$ tem pelo menos um vizinho em $H$.
+
+  Seja $X \subset V(H)$ o conjunto obtido a partir da escolha de exatamente
+  um vizinho de cada vértice $s \in S$.
+  $$X = \{u_s | s \in S\}$$
+
+  Note que $|X| \le S$ e $X \ne \emptyset$, pois $s \in S$ tem pelo menos
+  um vizinho e os vértices em $S$ podem possuir vizinhos em comum.
+
+  Como $H$ é conexo por hipótese, existe um subgrafo conexo em $H$ que abrange
+  todos os vértices de $X$.
+
+  Seja $T_H \subset H$ um subgrafo conexo mínimo (em número de vértices) de $H$
+  que contém $X$. Podemos inferir duas coisas
+
+  \begin{enumerate}
+    \item $T_H$ é uma árvore, pois se houvesse ciclo em $T_H$, poderia-se
+remover uma aresta de tal ciclo e $T_H$ continuaria conexo e contendo todo
+o conjunto $X$
+    \item As folhas de $T_H$ pertencem a $X$: toda folha (vértice de grau 1)
+    de $T_H$ deve estar em $X$. Se existisse uma folha $l \notin X$, poderiamos
+    remover $l$ e a árvore continuaria conexa e cobrindo $X$, o que contradiz
+    a minimalidade de $T_H$.
+  \end{enumerate}
+
+  A árvore $T$ cujas folhas são exatamente $S$, pode ser construida a partir de
+  $T_H$ da seguinte forma:
+
+  \begin{itemize}
+    \item $V(T) = V(T_H) \cup V(S)$
+    \item $E(T) = E(T_H) \cup \{su_s | s \in S \ u_s \in X\}$
+  \end{itemize}
+  $T$ é conexo, poís partimos da árvore $T_H$ e adicionamos novos vértices
+  ($V(S)$), cada um conectado a $X$ por exatamente uma aresta. Pelo mesmo
+  motivo $T$ não possui ciclos. Logo $T$ é uma árvore.
+
+  Ainda precisamos demonstrar que as folhas de $T$ são exatamente $S$.
+  Seja $L(T)$ o conjunto de folhas de $T$, precisamos mostrar que 
+  $S \subset L(T)$ (1) e que nenhum vértice de $T_H$ é folha em $T$ (2).
+
+  (1) $\Rightarrow$ É notório que os vértices $S$ são folhas em $T$ por conta
+  da construção, onde há exatamente 1 aresta conectando os vértices de $S$
+  nas folhas de $T_H$. Logo $d_T(s) = 1\ \forall s \in S$. Portanto $S \subset L(T)$  
+
+  (2) $\Rightarrow$ Para provar isso iremos analisar $|X|$
+
+  \textbf{Caso 1:} $|X| = 1 \ (X = \{x\})$
+
+  Nesse caso, $T_H$ corresponde a apenas o vértice $x$ e nenhuma aresta.
+  Por hipótese $|S| \ge 2$, logo há pelo menos dois vértices adjacentes a
+  $x$ em $H$. Logo, no grafo $T$, o grau de $x$ será maior ou igual a 2.
+  Portanto, $x$ não é folha.
+
+  \textbf{Caso 2:} $|X| \ge 2 $
+  Nese caso $T_H$ tem pelo menos uma aresta. Considere $w \in V(T_H)$.
+
+  Se $w$ é folha então $w \in X$, logo $d_{T_H}(w) =1$. Ao construir $T$
+  há pelo menos um vértice de $S$ adjacente a $w$. Portanto, $d_{T_H}(w) > 1$
+  e $w$ não é folha em $T$
+
+  Se $w$ não é folha $d_{T_H}(w) \ge 2$. Como o grau de $w$ não diminui
+  na construção de $T$, então $w$ não é folha em $T$.
+
+  Como $S \subset L(T)$ e nenhum vértice de $T_H$ é folha em $T$, logo
+  $S = L(T)$
+
+
+\end{document}
