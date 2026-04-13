@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1775928898.45938 "/mnt/hdd/Obsidian-Notes/Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Listas/Lista2/main.tex" "main.pdf" "main" 1775928899.26536 0
-  "/mnt/hdd/Obsidian-Notes/Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Listas/Lista2/main.tex" 1775928898.03589 9499 17cd60556d63ba15104ca8d39536efa5 ""
+["pdflatex"] 1776098162.14469 "/mnt/hdd/Obsidian-Notes/Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Listas/Lista2/main.tex" "main.pdf" "main" 1776098162.95894 0
+  "/mnt/hdd/Obsidian-Notes/Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Listas/Lista2/main.tex" 1776098158.19209 9483 d2890624de6d7bdda8949b321c17e11c ""
   "/opt/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1773177981 2971 def0b6c1f0b107b3b936def894055589 ""
   "/opt/texlive/2026/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1773177981 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/opt/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1773177981 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -65,8 +65,8 @@
   "/opt/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1773177981 5571903 25469a04e3c78dd45ed564c3ff68dcf0 ""
   "/opt/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1773177981 3637157 4ea976e8a853f63ac057c56f68e5bca3 ""
   "/opt/texlive/2026/texmf.cnf" 1773177981 585 d90dcc7e4cbb41f80da762fdc25fd0ea ""
-  "main.aux" 1775928899.1669 169 e8ba7d71ff854d5647ec332b79ceb628 "pdflatex"
-  "main.tex" 1775928898.03589 9499 17cd60556d63ba15104ca8d39536efa5 ""
+  "main.aux" 1776098162.87416 169 e3923e155aa6f6ee7f26f6aa006e61b1 "pdflatex"
+  "main.tex" 1776098158.19209 9483 d2890624de6d7bdda8949b321c17e11c ""
   (generated)
   "main.aux"
   "main.log"
