@@ -6,13 +6,16 @@ kanban-plugin: board
 
 ## Backlog
 
-- [ ] Test
-- [ ] Test 2
+- [ ] DL - Estudar slide 10 aula 1
+- [ ] DL - Estudar slide 59 aula 1
+- [ ] MBCC - Revisão de literatura sobre DLSS
+- [ ] DL - Estudar Aula 3
+- [ ] DL - Estudar Aula 4
+- [ ] DL - Estudar Aula 5
 
 
 ## In Progress
 
-- [ ] tt
 
 
 ## Complete
