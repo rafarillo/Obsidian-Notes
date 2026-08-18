@@ -32,9 +32,29 @@
               "icon": "lucide-file-text",
               "title": "Lista2"
             }
+          },
+          {
+            "id": "a2aa9b1ed10859d7",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Mestrado/Kanban Mestrado.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": [
+                    false,
+                    false,
+                    false
+                  ]
+                }
+              },
+              "icon": "lucide-trello",
+              "title": "Kanban Mestrado"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -54,7 +74,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -189,11 +211,17 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-kanban:Create new board": false
     }
   },
-  "active": "99b51a0e8bf9b4e4",
+  "active": "a2aa9b1ed10859d7",
   "lastOpenFiles": [
+    "Maratona/Problems/Sum of Three Problem.md",
+    "Mestrado/Kanban Mestrado.md",
+    "Maratona/Problems/Check if Number is a Sum of Powers of Three.md",
+    "Maratona/DP.md",
+    "Mestrado/TODO.md",
     "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Listas/Lista2/lista2.pdf",
     "Mestrado/MAC5770-Introducao_a_Teoria_dos_Grafos/Listas/Lista2/Lista2.pdf",
     "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/Aula8/FlashCards.md",
@@ -224,12 +252,7 @@
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula27",
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula26/Resumo.md",
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula26/FlashCards.md",
-    "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula26",
     "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula25/Resumo.md",
-    "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula25/FlashCards.md",
-    "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula24/Resumo.md",
-    "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula24/FlashCards.md",
-    "Mestrado/MAC5832-Introducao_ao_Aprendizado_de_Maquina/Aula23/Resumo.md",
     "Mestrado/MAC5768-Visao_e_Processamento_de_Imagens/MAC5768-Code/union-find/Lichtenstein_img_processing_test.png",
     "CG/Books/Fundamentals Of Computer Graphics/Pasted image 20250326203827.png",
     "CG/Neural Volumetric Rendering/Pasted image 20250318210747.png",
