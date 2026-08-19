@@ -12,6 +12,10 @@ kanban-plugin: board
 - [ ] DL - Estudar Aula 3
 - [ ] DL - Estudar Aula 4
 - [ ] DL - Estudar Aula 5
+- [ ] MBCC - coursera Modulo 1
+- [ ] MBCC - coursera Modulo 2
+- [ ] MBCC - coursera Modulo 3
+- [ ] MBCC - coursera Modulo 4
 
 
 ## In Progress
